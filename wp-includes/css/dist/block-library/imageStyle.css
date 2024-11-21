@@ -1,0 +1,41 @@
+.responsive-image {
+    width: 100%; /* Default width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  @media (max-width: 2101px) {
+    .responsive-image {
+      width: 45% !important;
+    }
+  }
+  
+  @media (max-width: 2048px) {
+    .responsive-image {
+      width: 45% !important;
+    }
+  }
+  
+  @media (max-width: 1536px) {
+    .responsive-image {
+      width: 40% !important;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .responsive-image {
+      width: 37% !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-image {
+      width: 35% !important;
+    }
+  }
+  
+  @media (max-width: 300px) {
+    .responsive-image {
+      width: 33% !important;
+    }
+  }
+  

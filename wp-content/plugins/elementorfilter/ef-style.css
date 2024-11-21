@@ -1,0 +1,46 @@
+/* ef-inner */
+/* body:not(.elementor-editor-active) .ef-area.ef-inner:not(.ef-show) > .elementor-inner-section:not(.ef-buttons):not([class^='ef-elementindex-']):not([class*=' ef-elementindex-'])  {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 0 !important;
+  box-shadow: none !important;
+}
+
+body:not(.elementor-editor-active) .ef-area.ef-inner:not(.ef-loaded) .elementor-inner-section {
+  opacity: 0;
+} */
+
+/* section */
+/* body:not(.elementor-editor-active) .ef-area.ef-sections:not(.ef-show):not([class^='ef-elementindex-']):not([class*=' ef-elementindex-']) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 0 !important;
+  box-shadow: none !important;
+}
+
+body:not(.elementor-editor-active) .ef-area.ef-sections:not(.ef-loaded) {
+  opacity: 0;
+} */
+
+/* column */
+/* body:not(.elementor-editor-active) .ef-area:not(.ef-sections):not(.ef-inner):not(.ef-show) > .elementor-container:not(.ef-buttons) > .elementor-column:not([class^='ef-elementindex-']):not([class*=' ef-elementindex-']) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 0 !important;
+  box-shadow: none !important;
+}
+
+body:not(.elementor-editor-active) .ef-area:not(.ef-inner):not(.ef-sections):not(.ef-loaded) > .elementor-container:not(.ef-buttons) > .elementor-column:not(.ef-buttons) {
+  opacity: 0;
+} */
+
+/* change cursor for ef-button */
+.ef-button {
+  cursor: pointer;
+}
