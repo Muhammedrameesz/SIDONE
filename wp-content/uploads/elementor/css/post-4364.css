@@ -50,7 +50,7 @@
 .elementor-4364
   .elementor-element.elementor-element-7572b8d
   > .elementor-background-overlay {
-  background-color: #00000061;
+  /* background-color:       #FFD58008008008008008000061; */
   opacity: 1;
 }
 .elementor-4364 .elementor-element.elementor-element-7572b8d {
@@ -244,7 +244,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #000080;
+  background-color:  #FFD580080080;
 }
 .elementor-4364
   .elementor-element.elementor-element-738ab70
@@ -295,7 +295,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   background-color: #61ce7000;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: #FF5733;
+  border-color: #000;
   border-radius: 33px 33px 33px 33px;
   padding: 14px 40px 14px 40px;
 }
@@ -305,9 +305,9 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-da75723
   .elementor-button:focus {
-  color: #000080;
-  background-color: #ffffff;
-  border-color: #000080;
+  color:#000;
+  background-color: #FF5733;
+  border-color:  #FF5733;
 }
 .elementor-4364
   .elementor-element.elementor-element-da75723
@@ -317,7 +317,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-da75723
   .elementor-button:focus
   svg {
-  fill: #000080;
+  fill: #FFD580;
 }
 .elementor-4364 .elementor-element.elementor-element-da75723 {
   --e-transform-transition-duration: 1ms;
@@ -389,7 +389,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-8f84a78
   .elementor-heading-title {
-  color: #0000800;
+  color:#0000;
   font-family: "Poppins", Sans-serif;
   font-size: 57px;
   font-weight: 600;
@@ -412,7 +412,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 }
 .elementor-4364 .elementor-element.elementor-element-90563b8 {
   text-align: justify;
-  color: #000080;
+  color:#000;
   font-family: "Roboto", Sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -471,7 +471,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-5f74088
   .elementor-cta__content {
   text-align: center;
-  background-color: #000080;
+  background-color:  #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-5f74088
@@ -479,7 +479,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000;
 }
 .elementor-4364
   .elementor-element.elementor-element-5f74088
@@ -512,7 +512,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-8830b02
   .elementor-cta__content {
   text-align: center;
-  background-color: #000080;
+  background-color: #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-8830b02
@@ -520,7 +520,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000;
 }
 .elementor-4364
   .elementor-element.elementor-element-8830b02
@@ -553,7 +553,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-3ea3e02
   .elementor-cta__content {
   text-align: center;
-  background-color: #000080;
+  background-color: #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-3ea3e02
@@ -561,7 +561,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000;
 }
 .elementor-4364
   .elementor-element.elementor-element-3ea3e02
@@ -594,7 +594,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-5b9412e
   .elementor-cta__content {
   text-align: center;
-  background-color: #000080;
+  background-color: #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-5b9412e
@@ -602,7 +602,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000;
 }
 .elementor-4364
   .elementor-element.elementor-element-5b9412e
@@ -836,7 +836,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-c568356
   .elementor-heading-title {
-  color: #000080;
+  color:#000;
   font-family: "Poppins", Sans-serif;
   font-size: 57px;
   font-weight: 600;
@@ -866,9 +866,9 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-237429f
   .elementor-button:focus {
-  color: #000080;
-  background-color: #ffffff;
-  border-color: #000080;
+  color:#000;
+  background-color: #FFD580;
+  border-color: #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-237429f
@@ -878,7 +878,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-237429f
   .elementor-button:focus
   svg {
-  fill: #000080;
+  fill:#000;
 }
 .elementor-4364 .elementor-element.elementor-element-237429f {
   --e-transform-transition-duration: 1ms;
@@ -983,7 +983,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-4518e48
   .elementor-heading-title {
-  color: #000080;
+  color:#000;
   font-family: "Poppins", Sans-serif;
   font-size: 57px;
   font-weight: 600;
@@ -1025,9 +1025,9 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-f8508fc
   .elementor-button:focus {
-  color: #000080;
-  background-color: #ffffff;
-  border-color: #000080;
+  color:#000;
+  background-color: #FFD580;
+  border-color: #FFD580;
 }
 .elementor-4364
   .elementor-element.elementor-element-f8508fc
@@ -1037,7 +1037,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-f8508fc
   .elementor-button:focus
   svg {
-  fill: #000080;
+  fill: #FFD580;
 }
 .elementor-4364 .elementor-element.elementor-element-f8508fc {
   --e-transform-transition-duration: 1ms;
@@ -1133,7 +1133,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   a {
   padding: 10px 20px 10px 20px;
   border-radius: 100px;
-  background-color: #000000;
+  background-color:  #FFD580;
   color: #ffffff;
   margin-top: 20px;
 }
@@ -1141,8 +1141,8 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-2039346
   .ue_post_blocks_link
   a:hover {
-  background-color: #000000;
-  color: #ffffff;
+  background-color:  #FFD580;
+  color: #000;
 }
 .elementor-4364 .elementor-element.elementor-element-f22c723 {
   --flex-direction: row;
@@ -1463,7 +1463,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
 .elementor-4364
   .elementor-element.elementor-element-d55feb2
   .ue_post_blocks_text {
-  color: #000080;
+  color:#000;
   margin-top: 10px;
   text-align: justify;
   font-size: 15px;
@@ -1472,13 +1472,13 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-d55feb2
   .ue_post_blocks_link
   a {
-  background-color: #000080;
+  background-color:  #000;
 }
 .elementor-4364
   .elementor-element.elementor-element-d55feb2
   .ue_post_blocks_title
   a {
-  color: #000080;
+  color:#000 !important;
 } /* End custom CSS */
 /* Start custom CSS for shortcode, class: .elementor-element-cb9e112 */
 .tweet_box {

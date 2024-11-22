@@ -19,7 +19,7 @@
   .elementor-element.elementor-element-aaa132d
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #000080;
+  background-color: #FFD580;
   background-image: url("../../2023/06/3-1.jpg");
   background-position: 0px -298px;
   background-repeat: no-repeat;
@@ -90,7 +90,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #3474b9;
+  background-color: #FFD580;
 }
 .elementor-7187
   .elementor-element.elementor-element-13e47e1
@@ -109,7 +109,7 @@
 }
 .elementor-7187 .elementor-element.elementor-element-4449e4c {
   text-align: left;
-  color: #ffffff;
+  color: #000;
   font-family: "Roboto", Sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -183,9 +183,9 @@
 .elementor-7187
   .elementor-element.elementor-element-2520685
   .elementor-button:focus {
-  color: #ffffff;
-  background-color: #000080;
-  border-color: #000080;
+  color: #000;
+  background-color: #FFD580;
+  border-color: #FFD580;
 }
 .elementor-7187
   .elementor-element.elementor-element-2520685
@@ -211,9 +211,9 @@
 .elementor-7187
   .elementor-element.elementor-element-645d194
   .elementor-button:focus {
-  color: #ffffff;
-  background-color: #000080;
-  border-color: #000080;
+  color: #000;
+  background-color: #FFD580;
+  border-color: #FFD580;
 }
 .elementor-7187
   .elementor-element.elementor-element-645d194

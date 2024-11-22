@@ -984,7 +984,7 @@ ul.elementor-nav-menu--dropdown a:hover {
   z-index: 9997;
 }
 .elementor-nav-menu--main a{
-    color:#000080 !important
+    color:#00008 !important
 }
 @media (max-width: 767px) {
   .elementor-nav-menu--dropdown-mobile .elementor-nav-menu--main {

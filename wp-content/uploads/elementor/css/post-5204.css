@@ -19,7 +19,7 @@
   .elementor-element.elementor-element-ecd6b46
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #000080;
+  background-color: #FFD580;
   background-image: url("../../2023/03/business-banner.jpg");
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -412,7 +412,7 @@ body:not(.rtl)
 .elementor-5204
   .elementor-element.elementor-element-6e4be82
   .elementor-heading-title {
-  color: #000080;
+  color:#000;
   font-family: "Poppins", Sans-serif;
   font-size: 36px;
   font-weight: 600;
@@ -514,22 +514,22 @@ body
   .elementor-element.elementor-element-d59ef86
   .e-form__buttons__wrapper__button-next {
   background-color: #61ce7000;
-  color: #000080;
-  border-color: #000080;
+  color:#000;
+  border-color: #FFD580;
 }
 .elementor-5204
   .elementor-element.elementor-element-d59ef86
   .elementor-button[type="submit"] {
   background-color: #61ce7000;
-  color: #000080;
-  border-color: #000080;
+  color:#000;
+  border-color: #FFD580;
 }
 .elementor-5204
   .elementor-element.elementor-element-d59ef86
   .elementor-button[type="submit"]
   svg
   * {
-  fill: #000080;
+  fill: #FFD580;
 }
 .elementor-5204
   .elementor-element.elementor-element-d59ef86
@@ -539,13 +539,13 @@ body
 .elementor-5204
   .elementor-element.elementor-element-d59ef86
   .e-form__buttons__wrapper__button-next:hover {
-  background-color: #000080;
+  background-color: #FFD580;
   color: #ffffff;
 }
 .elementor-5204
   .elementor-element.elementor-element-d59ef86
   .elementor-button[type="submit"]:hover {
-  background-color: #000080;
+  background-color: #FFD580;
   color: #ffffff;
 }
 .elementor-5204
