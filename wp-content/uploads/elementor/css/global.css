@@ -1090,3 +1090,6 @@
   font-family: var(--e-global-typography-text-font-family), Sans-serif;
   font-weight: var(--e-global-typography-text-font-weight);
 }
+a{
+  color:#000 !important;
+}
