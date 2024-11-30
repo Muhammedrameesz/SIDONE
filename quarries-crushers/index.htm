@@ -913,8 +913,8 @@
       [type="submit"]:hover,
       button:focus,
       button:hover {
-        background: #FFD580;
-        border-color: #FFD580;
+        background: #FF5733;
+        border-color: #FF5733;
       }
       .entry-content li {
         line-height: 35px;
@@ -1465,7 +1465,9 @@
             data-element_type="column"
             data-settings='{"background_background":"classic"}'
           >
-            <div class="elementor-widget-wrap elementor-element-populated">
+            <div class="elementor-widget-wrap elementor-element-populated"
+            style="background-color: #FFD580 !important"
+            >
               <div
                 class="elementor-element elementor-element-4449e4c elementor-widget elementor-widget-text-editor"
                 data-id="4449e4c"
@@ -1554,6 +1556,11 @@
                 data-element_type="section"
                 data-settings='{"background_background":"classic"}'
               >
+              <style>
+                .elementor-button-text{
+                  color: #fff !important;
+                }
+              </style>
                 <div class="elementor-background-overlay"></div>
                 <div class="elementor-container elementor-column-gap-default">
                   <div
