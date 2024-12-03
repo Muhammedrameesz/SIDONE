@@ -291,11 +291,11 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-weight: 400;
   letter-spacing: 0.2px;
   fill: #ffffff;
-  color: #ffffff !important;
-  background-color: #000;
+  color: #000 !important;
+  background-color: #fff;
   border-style: solid;
   border-width: 2px 2px 2px 2px;
-  border-color: #000;
+  border-color: #fff;
   border-radius: 33px 33px 33px 33px;
   padding: 14px 40px 14px 40px;
 }
@@ -306,8 +306,8 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-da75723
   .elementor-button:focus {
   color:#E85C0D !important;
-  background-color: #000;
-  border-color:  #000;
+  background-color: #fff;
+  border-color:  #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-da75723
@@ -365,7 +365,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-5145e47
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #edf9ff;
+  background-color: #fff;
 }
 .elementor-4364 .elementor-element.elementor-element-5145e47 {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -430,7 +430,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-616306f
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #edf9ff;
+  background-color: #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-616306f
@@ -479,7 +479,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-5f74088
@@ -520,7 +520,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-8830b02
@@ -561,7 +561,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-3ea3e02
@@ -602,7 +602,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   font-family: "Poppins", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
 }
 .elementor-4364
   .elementor-element.elementor-element-5b9412e
@@ -819,7 +819,7 @@ body.rtl .elementor-4364 .elementor-element.elementor-element-0337db3 {
   .elementor-element.elementor-element-fcb4e8d
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #ddecf6;
+  background-color:#f2f2f2;
 }
 .elementor-4364 .elementor-element.elementor-element-fcb4e8d {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;

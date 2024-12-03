@@ -107,7 +107,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #fff;
 }
 .elementor-8487
   .elementor-element.elementor-element-9858d37
@@ -138,8 +138,8 @@
 .elementor-8487
   .elementor-element.elementor-element-1bf7594
   .bdt-ep-accordion-title {
-  color: #ffffff;
-  background-color: #2264aa;
+  color: #000;
+  background-color:  #F28C28;
 }
 .elementor-8487
   .elementor-element.elementor-element-1bf7594
@@ -155,7 +155,7 @@
 .elementor-8487
   .elementor-element.elementor-element-1bf7594
   .bdt-ep-accordion-content {
-  color: #ffffff;
+  color: #000;
   padding: 20px 20px 20px 20px;
 }
 .elementor-8487
@@ -166,7 +166,7 @@
   .elementor-element.elementor-element-36893fe
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #b4e6ff;
+  background-color: #fff;
 }
 .elementor-8487 .elementor-element.elementor-element-36893fe {
   --background-transition: 0.3s;
