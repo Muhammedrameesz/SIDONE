@@ -83,7 +83,7 @@
   .elementor-element.elementor-element-fde6f90
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 .elementor-6480
   .elementor-element.elementor-element-fde6f90
@@ -128,7 +128,7 @@
   .elementor-element.elementor-element-bf1a441
   .ue_post_blocks_title
   a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .elementor-6480
   .elementor-element.elementor-element-bf1a441
