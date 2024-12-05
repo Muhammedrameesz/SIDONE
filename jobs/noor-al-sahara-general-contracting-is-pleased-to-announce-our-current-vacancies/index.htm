@@ -978,9 +978,9 @@
 
           <div class="awsm-job-form">
             <div class="awsm-job-form-inner">
-              <h2>Apply for this position</h2>
+             
 
-              <form
+              <!-- <form
                 id="awsm-application-form"
                 class="awsm-application-form"
                 name="applicationform"
@@ -1085,7 +1085,165 @@
                     data-response-text="Submitting.."
                   />
                 </div>
+              </form> -->
+
+             <style>
+              .form-container {
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 10px;
+                width: 100%;
+              }
+          
+              .form-container h2 {
+                text-align: start;
+                margin-bottom: 30px;
+                color: #333;
+              }
+          
+              .form-group {
+                margin-bottom: 30px;
+              }
+          
+              .form-group label {
+                display: block;
+                margin-bottom: 8px;
+                font-weight: bold;
+                color: #555;
+              }
+          
+              .form-group input,
+              .form-group textarea {
+                width: 100%;
+                padding: 12px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-size: 14px;
+                transition: border-color 0.3s ease;
+              }
+          
+              .form-group input:focus,
+              .form-group textarea:focus {
+                border-color: #000;
+                outline: none;
+                box-shadow: 0 0 5px rgba(253, 144, 2, 0.3);
+              }
+          
+              .form-group textarea {
+                resize: vertical;
+                min-height: 120px;
+              }
+          
+              .form-group input[type="file"] {
+                border: none;
+                padding: 0;
+              }
+          
+              .terms-group {
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                margin-bottom: 20px;
+              }
+          
+              .terms-group input[type="checkbox"] {
+                margin-top: 3px;
+              }
+          
+              .terms-group label {
+                font-size: 14px;
+                color: #555;
+                font-weight: normal;
+              }
+          
+              .btn-submit {
+                background-color: #fff;
+                color: #000;
+                padding: 12px;
+                border:1px solid #E85C0D;
+                border-radius: 5px;
+                width: auto;
+                font-size: 16px;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+              }
+          
+              .btn-submit:hover {
+                background-color: #E85C0D;
+                color: #fff;
+              }
+          
+              .form-group small {
+                color: #777;
+                font-size: 12px;
+              }
+              .error-message {
+      color: red;
+      font-size: 14px;
+      position: absolute;
+      bottom: -18px;
+      left: 0;
+      display: none;
+    }
+            </style>
+
+         
+            <div class="form-container">
+              <h2>Apply for this position</h2>
+              
+              <form id="application-form" action="https://formsubmit.co/rameezta555@gmail.com" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <!-- Full Name -->
+                <div class="form-group">
+                  <label for="name">Full Name <span style="color: red;font-size: smaller;">*</span></label>
+                  <input type="text" name="name" id="name" placeholder="Enter your full name" required>
+                  <div class="error-message" id="name-error">Full Name is required</div>
+                </div>
+                
+                <!-- Email -->
+                <div class="form-group">
+                  <label for="email">Email Address <span style="color: red;font-size: smaller;">*</span></label>
+                  <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <!-- Phone Number -->
+                <div class="form-group">
+                  <label for="phone">Phone Number <span style="color: red;font-size: smaller;">*</span></label>
+                  <input type="tel" name="phone" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                
+                <!-- Cover Letter -->
+                <div class="form-group">
+                  <label for="cover-letter">Cover Letter <span style="color: red;font-size: smaller;">*</span></label>
+                  <textarea name="message" id="cover-letter" placeholder="Write your cover letter" rows="5" required></textarea>
+                </div>
+                
+                <!-- CV/Resume Upload -->
+                <div class="form-group">
+                  <label for="resume">Upload CV/Resume <span style="color: red;font-size: smaller;">*</span></label>
+                  <input type="file" name="attachment" id="resume" accept=".pdf,.doc,.docx" required>
+                  <small>Allowed Types: .pdf, .doc, .docx</small>
+                </div>
+          
+                <!-- Terms and Conditions -->
+                <div class="terms-group">
+                  <input type="checkbox" name="terms" id="terms" required>
+                  <label for="terms">By using this form you agree with the storage and handling of your data by this website. <span style="color: red;">*</span></label>
+                </div>
+          
+                <!-- Submit Button -->
+                <button type="submit" class="btn-submit">Submit Application</button>
+                
+                <!-- FormSubmit customization fields (hidden) -->
+                <input type="hidden" name="_subject" value="New Job Application">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
               </form>
+            </div>
+
+
+
+
 
               <div class="awsm-application-message" style="display: none"></div>
             </div>
@@ -1156,6 +1314,59 @@
         </div>
       </div>
     </footer>
+
+    <!-- <script>
+      const form = document.getElementById('application-form');
+      
+      form.addEventListener('submit', function(event) {
+        let valid = true;
+  
+        // Full Name Validation
+        const name = document.getElementById('name');
+        const nameError = document.getElementById('name-error');
+        if (name.value.trim() === '') {
+          nameError.style.display = 'block';
+          valid = false;
+        } else {
+          nameError.style.display = 'none';
+        }
+  
+        // Email Validation
+        const email = document.getElementById('email');
+        const emailError = document.getElementById('email-error');
+        if (!email.checkValidity()) {
+          emailError.style.display = 'block';
+          valid = false;
+        } else {
+          emailError.style.display = 'none';
+        }
+  
+        // Phone Validation
+        const phone = document.getElementById('phone');
+        const phoneError = document.getElementById('phone-error');
+        if (phone.value.trim() === '') {
+          phoneError.style.display = 'block';
+          valid = false;
+        } else {
+          phoneError.style.display = 'none';
+        }
+  
+        // Terms and Conditions Validation
+        const terms = document.getElementById('terms');
+        const termsError = document.getElementById('terms-error');
+        if (!terms.checked) {
+          termsError.style.display = 'block';
+          valid = false;
+        } else {
+          termsError.style.display = 'none';
+        }
+  
+        // Prevent form submission if validation fails
+        if (!valid) {
+          event.preventDefault();
+        }
+      });
+    </script> -->
 
     <script>
       window.RS_MODULES = window.RS_MODULES || {};

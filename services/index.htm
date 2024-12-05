@@ -1702,7 +1702,7 @@
                               <h2
                                 class="elementor-cta__title elementor-cta__content-item elementor-content-item"
                               >
-                              Building Approvals
+                              Building Approval/Permission Work
                               </h2>
                             </div>
                           </a>
@@ -1710,6 +1710,47 @@
                       </div>
                     </div>
                   </div>
+
+                  <div
+                  class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-ae8bfcd"
+                  data-id="ae8bfcd"
+                  data-element_type="column"
+                >
+                  <div
+                    class="elementor-widget-wrap elementor-element-populated"
+                  >
+                    <div
+                      class="elementor-element elementor-element-cb24407 elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action"
+                      data-id="cb24407"
+                      data-element_type="widget"
+                      data-widget_type="call-to-action.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <a
+                          class="elementor-cta"
+                          href="../Building Approvals/index.htm"
+                        >
+                          <div class="elementor-cta__bg-wrapper">
+                            <div
+                              class="elementor-cta__bg elementor-bg"
+                              style="
+                                background-image: url(../wp-content/uploads/2023/03/DSC07499-1024x683.jpg);
+                              "
+                            ></div>
+                            <div class="elementor-cta__bg-overlay"></div>
+                          </div>
+                          <div class="elementor-cta__content">
+                            <h2
+                              class="elementor-cta__title elementor-cta__content-item elementor-content-item"
+                            >
+                            Project Management Consultancy
+                            </h2>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 </div>
               </section>
             </div>
@@ -1848,78 +1889,92 @@
 
         <style>
           .new-sec {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  margin: 0;
-  padding: 20px;
-  text-align: center;
-}
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+          }
+          
+          h1 {
+            margin-bottom: 20px;
+          }
+          
+          .sid-services {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+          }
+          
+          .card-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px;
+            padding: 10px;
+          }
+          
+          .card {
+            background-color: #E85C0D;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+          }
+          
+          .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            transition: all 1.5s ease-in-out;
+          }
+          
+          .card h2 {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #fff;
+          }
+          
+          .card p {
+            padding: 0 15px 15px;
+            font-size: 1em;
+            color: #fff;
+          }
+          
+          .card:hover {
+            transform: translateY(-10px);
+          }
+          
+          /* Responsive adjustments */
+          @media (max-width: 1024px) {
+            .card-container {
+              grid-template-columns: repeat(2, 1fr); 
+            }
+          }
+          
+          @media (max-width: 768px) {
+            .card-container {
+              grid-template-columns: 1fr;
+            }
+          }
+          </style>
+          
+        <script>
+          const myimg = document.getElementById("my-img")
+          const mypara = document.getElementById("my-para")
+            const myfunc = ()=>{
+              if(myimg.onmouseenter){
+                mypara.style.display="block"
+              }
+            }
+        </script>
 
-h1 {
-  margin-bottom: 20px;
-}
-.sid-services{
-   display: flex;
-  align-items: center;
-  padding: 20px 0px 20px 0px;
-  
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 10px;
-}
-
-.card {
-  background-color: #E85C0D;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card h2 {
-  font-size: 1.5em;
-  margin: 15px 0;
-  color: #fff;
-}
-
-.card p {
-  padding: 0 15px 15px;
-  font-size: 1em;
-  color: #fff;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-@media(max-width: 768px){
-  .sid-services{
-   display:inline;
-  align-items: center;
-}
-
-}
-
-
-
-        </style>
         <div class="card-container">
           <!-- Residential Construction Card -->
           <div class="card">
-            <img src="https://img.freepik.com/free-photo/working-with-blueprint_1098-14292.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid" alt="Residential Construction">
+            <img id="my-img" src="https://img.freepik.com/free-photo/working-with-blueprint_1098-14292.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid" alt="Residential Construction">
             <h2>Residential Construction</h2>
-            <p>Crafting homes that blend functionality, comfort, and elegance, from luxury apartments to affordable housing.</p>
+            <p id="my-para">Crafting homes that blend functionality, comfort, and elegance, from luxury apartments to affordable housing.</p>
           </div>
       
           <!-- Commercial Construction Card -->
