@@ -1,0 +1,142 @@
+/* General Styles */
+.services-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+   margin: 30px 50px 60px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.card {
+    width: 18%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card i {
+    font-size: 40px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Details Section */
+.details-section {
+    display: none;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    max-width: 1200px;  /* Added for better responsiveness */
+    margin: 0 auto;  /* Centers the details section */
+    border-radius: 10px;  /* Optional for rounded corners */
+    height: 400px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;  /* Vertically aligns the content */
+    gap: 40px;
+}
+
+
+
+#content-column {
+    flex: 2;  /* Makes the content column take more space */
+    padding-left: 20px;
+}
+
+.content-column h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#image-service {
+    max-width: 100%;  /* Ensures the image fits within the container */
+    height: auto;
+    margin-top: 20px;
+    flex: 1;  /* Makes the image column flexible */
+    text-align: center;
+}
+
+#image-service img {
+    width: 500px;  
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.content-column p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.sub-points {
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.col {
+    width: 30%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.col:hover {
+    background-color: #cc5200;
+}
+
+/* Add this to highlight the active card */
+.card.active {
+    border: 2px solid #ff6600;
+    background-color: #fff8f0;
+}

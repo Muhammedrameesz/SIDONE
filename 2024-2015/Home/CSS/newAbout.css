@@ -1,0 +1,218 @@
+
+  
+  .aboutSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 50px ;
+    background-color: #f4f4f4;
+    
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .image-column {
+    position: relative;
+    width: 40%;
+    height: 600px; /* Adjust as needed */
+  }
+  
+  .image-column .image {
+    position: absolute;
+    background-color: #ccc;
+    border-radius: 10px;
+    
+  }
+  
+  .image-m-1 {
+    top: 10px;
+    left: 20px;
+    background-image: url('image1.jpg');
+    background-size: cover;
+    width: full;
+    height:full;
+  }
+  
+  .image-m-2 {
+    top: 100px;
+    left: -40px;
+    background-image: url('image2.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 500px;
+    animation: moveImages 6s infinite ease-in-out;
+  }
+  
+  .image-m-3 {
+    top: -10px;
+    right: -40px;
+    background-image: url('image3.jpg');
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    
+    
+  }
+  .image-m-4 {
+    top: 120px;
+    right: 60px;
+    background-image: url('image4.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+
+  }
+  .image-m-5 {
+    bottom: 20px;
+    right: 20px;
+    background-image: url('image5.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    animation: moveImages2 6s infinite ease-in-out;
+
+  }
+  
+  @keyframes moveImages {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(10px, 20px);
+    }
+  }
+  @keyframes moveImages2 {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-30px); 
+    }
+  }
+  
+  
+  .content-column {
+    width:50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .statistics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Add space between columns */
+    margin-bottom: 30px;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .stat-item:hover {
+    transform: scale(1.05);
+    background-color: #ff6600;
+  }
+  
+  .stat-icon {
+    font-size: 35px; /* Slightly smaller icon */
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Space between icon and number */
+    transition: transform 0.3s;
+  }
+  
+  .stat-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Ensure the text is centered */
+  }
+  
+  .stat-text .number {
+    font-size: 28px; /* Slightly larger number */
+    color: #ff6600;
+  }
+  
+  .stat-item:hover .stat-icon {
+    transform: rotateY(180deg);
+  }
+  
+  .stat-item:hover .stat-text .number {
+    color: white;
+  }
+  
+  .featured {
+    margin-bottom: 30px;
+  }
+  
+  .featured h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .featured ul {
+    list-style: none;
+    padding-left: 0;  
+  }
+  
+  .featured ul li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;  /* Align items to the start */
+    text-align: left;  /* Optional: Ensure text is left-aligned */
+  }
+  
+  .featured ul li::before {
+    content: '✔';
+    margin-right: 10px;
+    color: green;
+  }
+  
+  .learn-more {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:50%
+  }
+  
+  .learn-more:hover {
+    background-color: #cc5200;
+  }
+  
+  
