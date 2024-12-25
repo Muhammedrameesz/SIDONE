@@ -17,40 +17,91 @@ function showDetailsAndSetActive(type, cardElement) {
     const detailsTitle = document.getElementById('details-title');
     const detailsDescription = document.getElementById('details-description');
   
-    const subPoints = [
-      {
-        title: 'Taxi Clone App',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
-        points: ['Easy Booking', 'Real-time Tracking', 'Multiple Payment Options', 'Driver Profile', 'Rating System', 'Trip History', 'Push Notifications', 'Ride Scheduling', 'Admin Dashboard'],
-        image: 'https://www.peppyocean.com/wp-content/uploads/2020/03/1.png'
-      },
-      {
-        title: 'Food Delivery App',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
-        points: ['Restaurant Listings', 'Real-time Tracking', 'Order History', ' Payment Methods', 'Delivery Scheduling', 'Ratings', 'Push Notifications', 'Admin Dashboard', 'Online Payments'],
-        image: 'https://www.peppyocean.com/wp-content/uploads/2020/03/2.png'
-      },
-      {
-        title: 'On-Demand Apps',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
-        points: ['Service Booking', 'Multiple Categories', 'Real-time Notifications', 'Payment Integration', 'Rating & Review', 'Scheduling', 'Service Tracking', 'Profile Management', 'Admin Dashboard'],
-        image: 'https://www.peppyocean.com/wp-content/uploads/2020/03/3.png'
-      },
-      {
-        title: 'Grocery Clone App',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
-        points: ['Product Listings', 'Cart Management', 'Payment Integration', 'Real-time Tracking', 'User Profile', 'Delivery Scheduling', 'Order History', 'Ratings', 'Admin Dashboard'],
-        image: 'https://www.peppyocean.com/wp-content/uploads/2020/03/4.png'
-      },
-      {
-        title: 'Other Apps',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
-        points: ['Flexible Solutions', 'Multiple Platforms', 'Real-time Data', 'Push Notifications', 'User Profile', 'Payment Integration', 'Customization', 'Scheduling', 'Support Services'],
-        image: 'https://www.peppyocean.com/wp-content/uploads/2020/03/5.png'
-      }
-    ];
+   const subPoints = [
+  {
+    title: 'Construction',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
+    points: [
+      'Site Preparation',
+      'Material Procurement',
+      'Structural Framework',
+      'Plumbing ',
+      'Roofing and Finishing',
+      'Quality Control',
+      'Safety Compliance',
+      'Time Management',
+      'Cost Monitoring'
+    ],
+    image: 'https://img.freepik.com/free-photo/crane-building-construction-site-filtered-image-processed_1232-2707.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+  },
+  {
+    title: 'Consultancy',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
+    points: [
+      'Feasibility Studies',
+      'Design Consultation',
+      'Material Selection',
+      'Regulatory Compliance',
+      'Project Planning',
+      'Budget Analysis',
+      'Risk Assessment',
+      'Sustainability Consultation',
+      'Client Coordination'
+    ],
+    image: 'https://img.freepik.com/free-photo/man-with-tablet-chatting-with-colleagues_23-2147787532.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+  },
+  {
+    title: 'Estimation and Budgeting',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
+    points: [
+      'Cost Estimation',
+      'Material Takeoffs',
+      'Labor Cost Analysis',
+      'Contingency Planning',
+      'Cost Tracking',
+      'Vendor Management',
+      'Bid Preparation',
+      'Cash Flow Analysis',
+      'Budget Revisions'
+    ],
+    image: 'https://img.freepik.com/free-vector/tax-elements-composition-isometric_98292-6836.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+  },
+  {
+    title: 'Building Approvals',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
+    points: [
+      'Zoning Clearance',
+      'Architectural Approvals',
+      'Environmental Impact ',
+      'Utility Connections',
+      'Fire Safety Certification',
+      'Structural Certifications',
+      'Site Inspection ',
+      'Documentation Support',
+      'Approval Follow-ups'
+    ],
+    image: 'https://img.freepik.com/free-vector/architectural-project-approval-safety-check-construction-quality-control-construction-quality-management-hire-your-quality-technician-concept_335657-701.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+  },
+  {
+    title: 'Project Management Consultancy',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi et earum nisi reprehenderit, quas, nemo aperiam expedita, voluptates facere natus ratione dolor perspiciatis repudiandae eligendi accusantium illo. Neque, odio enim.',
+    points: [
+      'Project Scheduling',
+      'Resource Allocation',
+      'Team Coordination',
+      'Progress Monitoring',
+      'Risk Management',
+      'Stakeholder',
+      'Change Management',
+      'Performance Evaluation',
+      'Project Handover'
+    ],
+    image: 'https://img.freepik.com/free-photo/business-scene-top-view_23-2147626514.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+  }
+];
+
   
-    const selectedService = subPoints.find(service => service.title.toLowerCase().includes(type));
+    const selectedService = subPoints.find(service => service.title.toLowerCase().includes(type.toLowerCase()));
 
     if (selectedService) {
       detailsTitle.textContent = selectedService.title;

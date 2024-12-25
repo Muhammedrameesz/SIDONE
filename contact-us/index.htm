@@ -1593,6 +1593,12 @@
 				</div> -->
                     </div>
                   </div>
+
+
+
+
+
+                  
                   <div
                     class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-60e17a8 contact-form"
                     data-id="60e17a8"
@@ -1624,562 +1630,143 @@
                         data-settings='{"button_width":"40","step_next_label":"Next","step_previous_label":"Previous","step_type":"number_text","step_icon_shape":"circle"}'
                         data-widget_type="form.default"
                       >
-                        <div class="elementor-widget-container">
-                          <!-- <style>
-                            /*! elementor-pro - v3.7.1 - 16-05-2022 */
-                            .elementor-button.elementor-hidden,
-                            .elementor-hidden {
-                              display: none;
-                            }
-                            .e-form__step {
-                              width: 100%;
-                            }
-                            .e-form__step:not(.elementor-hidden) {
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -ms-flex-wrap: wrap;
-                              flex-wrap: wrap;
-                            }
-                            .e-form__buttons {
-                              -ms-flex-wrap: wrap;
-                              flex-wrap: wrap;
-                            }
-                            .e-form__buttons,
-                            .e-form__buttons__wrapper {
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                            }
-                            .e-form__indicators {
-                              -webkit-box-pack: justify;
-                              -ms-flex-pack: justify;
-                              justify-content: space-between;
-                              -ms-flex-wrap: nowrap;
-                              flex-wrap: nowrap;
-                              font-size: 13px;
-                              margin-bottom: var(
-                                --e-form-steps-indicators-spacing
-                              );
-                            }
-                            .e-form__indicators,
-                            .e-form__indicators__indicator {
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -webkit-box-align: center;
-                              -ms-flex-align: center;
-                              align-items: center;
-                            }
-                            .e-form__indicators__indicator {
-                              -webkit-box-orient: vertical;
-                              -webkit-box-direction: normal;
-                              -ms-flex-direction: column;
-                              flex-direction: column;
-                              -webkit-box-pack: center;
-                              -ms-flex-pack: center;
-                              justify-content: center;
-                              -ms-flex-preferred-size: 0;
-                              flex-basis: 0;
-                              padding: 0 var(--e-form-steps-divider-gap);
-                            }
-                            .e-form__indicators__indicator__progress {
-                              width: 100%;
-                              position: relative;
-                              background-color: var(
-                                --e-form-steps-indicator-progress-background-color
-                              );
-                              border-radius: var(
-                                --e-form-steps-indicator-progress-border-radius
-                              );
-                              overflow: hidden;
-                            }
-                            .e-form__indicators__indicator__progress__meter {
-                              width: var(
-                                --e-form-steps-indicator-progress-meter-width,
-                                0
-                              );
-                              height: var(
-                                --e-form-steps-indicator-progress-height
-                              );
-                              line-height: var(
-                                --e-form-steps-indicator-progress-height
-                              );
-                              padding-right: 15px;
-                              border-radius: var(
-                                --e-form-steps-indicator-progress-border-radius
-                              );
-                              background-color: var(
-                                --e-form-steps-indicator-progress-color
-                              );
-                              color: var(
-                                --e-form-steps-indicator-progress-meter-color
-                              );
-                              text-align: right;
-                              -webkit-transition: width 0.1s linear;
-                              -o-transition: width 0.1s linear;
-                              transition: width 0.1s linear;
-                            }
-                            .e-form__indicators__indicator:first-child {
-                              padding-left: 0;
-                            }
-                            .e-form__indicators__indicator:last-child {
-                              padding-right: 0;
-                            }
-                            .e-form__indicators__indicator--state-inactive {
-                              color: var(
-                                --e-form-steps-indicator-inactive-primary-color,
-                                #c2cbd2
-                              );
-                            }
-                            .e-form__indicators__indicator--state-inactive
-                              [class*="indicator--shape-"]:not(
-                                .e-form__indicators__indicator--shape-none
-                              ) {
-                              background-color: var(
-                                --e-form-steps-indicator-inactive-secondary-color,
-                                #fff
-                              );
-                            }
-                            .e-form__indicators__indicator--state-inactive
-                              object,
-                            .e-form__indicators__indicator--state-inactive svg {
-                              fill: var(
-                                --e-form-steps-indicator-inactive-primary-color,
-                                #c2cbd2
-                              );
-                            }
-                            .e-form__indicators__indicator--state-active {
-                              color: var(
-                                --e-form-steps-indicator-active-primary-color,
-                                #39b54a
-                              );
-                              border-color: var(
-                                --e-form-steps-indicator-active-secondary-color,
-                                #fff
-                              );
-                            }
-                            .e-form__indicators__indicator--state-active
-                              [class*="indicator--shape-"]:not(
-                                .e-form__indicators__indicator--shape-none
-                              ) {
-                              background-color: var(
-                                --e-form-steps-indicator-active-secondary-color,
-                                #fff
-                              );
-                            }
-                            .e-form__indicators__indicator--state-active object,
-                            .e-form__indicators__indicator--state-active svg {
-                              fill: var(
-                                --e-form-steps-indicator-active-primary-color,
-                                #39b54a
-                              );
-                            }
-                            .e-form__indicators__indicator--state-completed {
-                              color: var(
-                                --e-form-steps-indicator-completed-secondary-color,
-                                #fff
-                              );
-                            }
-                            .e-form__indicators__indicator--state-completed
-                              [class*="indicator--shape-"]:not(
-                                .e-form__indicators__indicator--shape-none
-                              ) {
-                              background-color: var(
-                                --e-form-steps-indicator-completed-primary-color,
-                                #39b54a
-                              );
-                            }
-                            .e-form__indicators__indicator--state-completed
-                              .e-form__indicators__indicator__label {
-                              color: var(
-                                --e-form-steps-indicator-completed-primary-color,
-                                #39b54a
-                              );
-                            }
-                            .e-form__indicators__indicator--state-completed
-                              .e-form__indicators__indicator--shape-none {
-                              color: var(
-                                --e-form-steps-indicator-completed-primary-color,
-                                #39b54a
-                              );
-                              background-color: initial;
-                            }
-                            .e-form__indicators__indicator--state-completed
-                              object,
-                            .e-form__indicators__indicator--state-completed
-                              svg {
-                              fill: var(
-                                --e-form-steps-indicator-completed-secondary-color,
-                                #fff
-                              );
-                            }
-                            .e-form__indicators__indicator__icon {
-                              width: var(
-                                --e-form-steps-indicator-padding,
-                                30px
-                              );
-                              height: var(
-                                --e-form-steps-indicator-padding,
-                                30px
-                              );
-                              font-size: var(
-                                --e-form-steps-indicator-icon-size
-                              );
-                              border-width: 1px;
-                              border-style: solid;
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -webkit-box-pack: center;
-                              -ms-flex-pack: center;
-                              justify-content: center;
-                              -webkit-box-align: center;
-                              -ms-flex-align: center;
-                              align-items: center;
-                              overflow: hidden;
-                              margin-bottom: 10px;
-                            }
-                            .e-form__indicators__indicator__icon img,
-                            .e-form__indicators__indicator__icon object,
-                            .e-form__indicators__indicator__icon svg {
-                              width: var(--e-form-steps-indicator-icon-size);
-                              height: auto;
-                            }
-                            .e-form__indicators__indicator__icon
-                              .e-font-icon-svg {
-                              height: 1em;
-                            }
-                            .e-form__indicators__indicator__number {
-                              width: var(
-                                --e-form-steps-indicator-padding,
-                                30px
-                              );
-                              height: var(
-                                --e-form-steps-indicator-padding,
-                                30px
-                              );
-                              border-width: 1px;
-                              border-style: solid;
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -webkit-box-pack: center;
-                              -ms-flex-pack: center;
-                              justify-content: center;
-                              -webkit-box-align: center;
-                              -ms-flex-align: center;
-                              align-items: center;
-                              margin-bottom: 10px;
-                            }
-                            .e-form__indicators__indicator--shape-circle {
-                              border-radius: 50%;
-                            }
-                            .e-form__indicators__indicator--shape-square {
-                              border-radius: 0;
-                            }
-                            .e-form__indicators__indicator--shape-rounded {
-                              border-radius: 5px;
-                            }
-                            .e-form__indicators__indicator--shape-none {
-                              border: 0;
-                            }
-                            .e-form__indicators__indicator__label {
-                              text-align: center;
-                            }
-                            .e-form__indicators__indicator__separator {
-                              width: 100%;
-                              height: var(--e-form-steps-divider-width);
-                              background-color: #c2cbd2;
-                            }
-                            .e-form__indicators--type-icon,
-                            .e-form__indicators--type-icon_text,
-                            .e-form__indicators--type-number,
-                            .e-form__indicators--type-number_text {
-                              -webkit-box-align: start;
-                              -ms-flex-align: start;
-                              align-items: flex-start;
-                            }
-                            .e-form__indicators--type-icon
-                              .e-form__indicators__indicator__separator,
-                            .e-form__indicators--type-icon_text
-                              .e-form__indicators__indicator__separator,
-                            .e-form__indicators--type-number
-                              .e-form__indicators__indicator__separator,
-                            .e-form__indicators--type-number_text
-                              .e-form__indicators__indicator__separator {
-                              margin-top: calc(
-                                var(--e-form-steps-indicator-padding, 30px) / 2 -
-                                  var(--e-form-steps-divider-width, 1px) / 2
-                              );
-                            }
-                            .elementor-field-type-hidden {
-                              display: none;
-                            }
-                            .elementor-field-type-html {
-                              display: inline-block;
-                            }
-                            .elementor-login .elementor-lost-password,
-                            .elementor-login .elementor-remember-me {
-                              font-size: 0.85em;
-                            }
-                            .elementor-field-type-recaptcha_v3
-                              .elementor-field-label {
-                              display: none;
-                            }
-                            .elementor-field-type-recaptcha_v3
-                              .grecaptcha-badge {
-                              z-index: 1;
-                            }
-                            .elementor-button .elementor-form-spinner {
-                              -webkit-box-ordinal-group: 4;
-                              -ms-flex-order: 3;
-                              order: 3;
-                            }
-                            .elementor-form .elementor-button > span {
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -webkit-box-pack: center;
-                              -ms-flex-pack: center;
-                              justify-content: center;
-                              -webkit-box-align: center;
-                              -ms-flex-align: center;
-                              align-items: center;
-                            }
-                            .elementor-form
-                              .elementor-button
-                              .elementor-button-text {
-                              white-space: normal;
-                              -webkit-box-flex: 0;
-                              -ms-flex-positive: 0;
-                              flex-grow: 0;
-                            }
-                            .elementor-form .elementor-button svg {
-                              height: auto;
-                            }
-                            .elementor-form .elementor-button .e-font-icon-svg {
-                              height: 1em;
-                            }
-                          </style> -->
 
 
-
-                          <style>
-                            .form-container {
-                              background-color: #fff;
-                              border-radius: 12px;
-                              max-width: 500px;
-                              width: 100%;
-                            }
-                            .form-group {
-                              margin-bottom: 20px;
-                            }
-                        
+                      <div class="elementor-widget-container">
+                        <style>
+                          .form-container {
+                            background-color: #fff;
+                            border-radius: 12px;
+                            max-width: 500px;
+                            width: 100%;
+                          }
+                      
+                          .form-group {
+                            margin-bottom: 20px;
+                          }
+                          .form-group label{
+                            margin-bottom: 20px;
+                            
+                          }
+                      
+                          .form-row {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 15px;
+                            
+                            
+                          }
+                      
+                          .col {
+                            min-width: 100px;
+                           
+                          }
+                      
+                          #form-control {
+                            width: 100%;
+                            padding: 12px;
+                            border: 1px solid #ccc;
+                            border-radius: 8px;
+                            font-size: 16px;
+                            transition: border-color 0.3s;
+                          }
+                      
+                          #form-control:focus {
+                            border-color: orange;
+                            outline: none;
+                            box-shadow: 0 0 5px rgba(253, 144, 2, 0.3);
+                          }
+                      
+                          textarea.form-control {
+                            resize: none;
+                          }
+                      
+                          button {
+                            width: auto !important;
+                            padding: 10px !important;
+                            background-color: #fff !important;
+                            border: 1px solid #e85c0d !important;
+                            border-radius: 10px !important;
+                            color: #303030 !important;
+                            font-size: 18px !important;
+                            cursor: pointer !important;
+                            transition: all 0.5s ease-in-out !important;
+                            font-family: Arial, sans-serif !important;
+                          }
+                      
+                          button:hover {
+                            background-color: #e85c0d !important;
+                            color: #fff !important;
+                          }
+                      
+                          /* Responsive Design */
+                          @media (max-width: 480px) {
                             .form-row {
-                              display: flex;
-                              flex-wrap: wrap;
-                              gap: 15px;
+                              flex-direction: column;
                             }
-                        
-                            .col {
-                              flex: 1;
-                              min-width: 100px;
-                            }
-                        
-                            #form-control {
-                              width: 100%;
-                              padding: 12px;
-                              border: 1px solid #ccc ;
-                              border-radius: 8px;
-                              font-size: 16px;
-                              transition: border-color 0.3s;
-                            }
-                        
-                            #form-control:focus {
-                              border-color: orange;
-                              outline: none;
-                              box-shadow: 0 0 5px rgba(253, 144, 2, 0.3);
-                            }
-                        
-                            textarea.form-control {
-                              resize: none;
-                            }
-                        
-                            button {
-                              width: auto !important;
-                              padding: 10px !important;
-                              background-color: #fff !important;
-                              border:1px solid #e85c0d !important;
-                              border-radius: 10px !important;
-                              color: #303030 !important;
-                              font-size: 18px !important;
-                              cursor: pointer !important;
-                              transition: all 0.5s ease-in-out !important;
-                              font-family: Arial, sans-serif !important;
-                              
-                            }
-                        
-                            button:hover {
-                              background-color: #e85c0d !important;
-                              color: #fff !important;
-                            }
-                        
-                            /* Responsive Design */
-                            @media (max-width: 480px) {
-                              .form-row {
-                                flex-direction: column;
-                              }
-                            }
-                          </style>
-
-
-<div class="form-container">
- 
-  <form target="_blank" action="https://formsubmit.co/rameezta555@gmail.com" method="POST">
-    <div class="form-group">
-      <div class="form-row">
-        <div class="col">
-          <input type="text" name="name" class="form-control" id="form-control" placeholder="Full Name" required>
-        </div>
-        <div class="col">
-          <input type="email" name="email" class="form-control" id="form-control" placeholder="Email Address" required>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <input type="tel" name="phone" class="form-control" id="form-control" placeholder="Phone Number" required>
-    </div>
-    <div class="form-group">
-      <textarea placeholder="Your Message" class="form-control" id="form-control" name="message" rows="4" required></textarea>
-    </div>
-    <button type="submit">Submit Form</button>
-  </form>
-</div>
-
-                          <!-- <form
-
-                            class="elementor-form"
-                            method="post"
-                            name="New Form"
-                          action="https://formsubmit.co/rameezta555@gmail.com"
-                          >
-                            <input type="hidden" name="post_id" value="5204" />
-                            <input
-                              type="hidden"
-                              name="form_id"
-                              value="d59ef86"
-                            />
-                            <input
-                              type="hidden"
-                              name="referer_title"
-                              value="Contact us"
-                            />
-
-                            <input
-                              type="hidden"
-                              name="queried_id"
-                              value="5204"
-                            />
-
-                            <div
-                              class="elementor-form-fields-wrapper elementor-labels-"
-                            >
-                              <div
-                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100"
-                              >
-                                <label
-                                  for="form-field-name"
-                                  class="elementor-field-label elementor-screen-only"
-                                >
-                                  Name
-                                </label>
-                                <input
-                                  size="1"
-                                  type="text"
-                                  name="form_fields[name]"
-                                  id="form-field-name"
-                                  class="elementor-field elementor-size-md elementor-field-textual"
-                                  placeholder="Name"
-                                  required="required"
-                                />
-                              </div>
-                              <div
-                                class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required"
-                              >
-                                <label
-                                  for="form-field-email"
-                                  class="elementor-field-label elementor-screen-only"
-                                >
-                                  Email
-                                </label>
-                                <input
-                                  size="1"
-                                  type="email"
-                                  name="form_fields[email]"
-                                  id="form-field-email"
-                                  class="elementor-field elementor-size-md elementor-field-textual"
-                                  placeholder="Email"
-                                  required="required"
-                                  aria-required="true"
-                                />
-                              </div>
-                              <div
-                                class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_c8036b6 elementor-col-100 elementor-field-required"
-                              >
-                                <label
-                                  for="form-field-field_c8036b6"
-                                  class="elementor-field-label elementor-screen-only"
-                                >
-                                  Phone
-                                </label>
-                                <input
-                                  size="1"
-                                  type="text"
-                                  name="form_fields[field_c8036b6]"
-                                  id="form-field-field_c8036b6"
-                                  class="elementor-field elementor-size-md elementor-field-textual"
-                                  placeholder="Phone"
-                                  required="required"
-                                  aria-required="true"
-                                />
-                              </div>
-                              <div
-                                class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100"
-                              >
-                                <label
-                                  for="form-field-message"
-                                  class="elementor-field-label elementor-screen-only"
-                                >
-                                  Message
-                                </label>
-                                <textarea
-                                  class="elementor-field-textual elementor-field elementor-size-md"
-                                  name="form_fields[message]"
-                                  id="form-field-message"
-                                  rows="4"
-                                  placeholder="Message"
-                                  required="required"
-                                ></textarea>
-                              </div>
-                              <div
-                                class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-40 e-form__buttons"
-                              >
-                                <button
-                                  type="submit"
-                                  class="elementor-button elementor-size-md"
-                                >
-                                  <span>
-                                    <span class="elementor-button-icon"> </span>
-                                    <span class="elementor-button-text"
-                                      >Submit</span
-                                    >
-                                  </span>
-                                </button>
+                          }
+                        </style>
+                      
+                        <div class="form-container">
+                          <form target="_blank" action="https://formsubmit.co/rameezta555@gmail.com" method="POST" id="myForm">
+                            <div class="form-group">
+                              <div class="form-row">
+                                <div class="col">
+                                  <input type="text" name="name" class="form-control" id="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="col">
+                                  <input type="email" name="email" class="form-control" id="form-control" placeholder="Email Address" required>
+                                </div>
                               </div>
                             </div>
-                          </form> -->
+                            <div class="form-group">
+                              <input type="tel" name="phone" class="form-control" id="form-control" placeholder="Phone Number" required>
+                            </div>
+                            
+
+                            
+                            <div class="form-group">
+                              <label>Services (Select at least one):</label>
+
+                              <div class="form-row">
+                                <div class="col">
+                                  <input type="checkbox" name="services[]" value="construction" id="construction"> Construction
+                                  <br>
+                                  <input type="checkbox" name="services[]" value="consultancy" id="consultancy"> Consultancy
+                                  <br>
+                                  <input type="checkbox" name="services[]" value="estimation" id="estimation"> Estimation and Budgeting
+                                </div>
+                                <div class="col">
+                                  
+                                  <input type="checkbox" name="services[]" value="building_approvals" id="building_approvals"> Building Approvals
+                                  <br>
+                                  <input type="checkbox" name="services[]" value="project_management" id="project_management"> Project Management Consultancy
+                                </div>
+                              </div>
+                            </div>
+                            <button type="submit">Submit Form</button>
+                          </form>
                         </div>
+                      </div>
+                      
+                      <script>
+                       
+                        document.getElementById('myForm').addEventListener('submit', function (event) {
+                          const checkboxes = document.querySelectorAll('input[name="services[]"]:checked');
+                          if (checkboxes.length === 0) {
+                            alert('Please select at least one service.');
+                            event.preventDefault(); 
+                          }
+                        });
+                      </script>
+                      
+
+
+
+
+
+
+
                       </div>
                     </div>
                   </div>
