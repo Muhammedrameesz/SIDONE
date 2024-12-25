@@ -49,6 +49,8 @@
   background-size: cover;
   width: 60%;
   height: auto;
+  animation: moveImages2 6s infinite ease-in-out;
+
 }
 
 .image-m-4 {
@@ -59,25 +61,26 @@
   background-size: cover;
   width: 60%;
   height: auto;
+  
 }
 
 .image-m-5 {
   position: absolute; /* Position absolutely */
-  bottom: 50px;
-  right: 20px;
+  top: 50%;
+  right: 50px;
   background-image: url('image5.jpg');
   background-size: cover;
-  width: 60%;
+  width: 70%;
   height: auto;
-  animation: moveImages2 6s infinite ease-in-out;
+  animation: moveImages3 6s infinite ease-in-out;
 }
 
 @keyframes moveImages {
   0%, 100% {
-      transform: translate(0, 0);
+      transform: translateY(0);
   }
   50% {
-      transform: translate(10px, 20px);
+      transform: translateY(-40px);
   }
 }
 
@@ -86,7 +89,15 @@
       transform: translateY(0);
   }
   50% {
-      transform: translateY(-40px);
+      transform: translateY(40px);
+  }
+}
+@keyframes moveImages3 {
+  0%,100%{
+    transform: scale(0.8);
+  }
+  50%{
+    transform: scale(1);
   }
 }
 
