@@ -32,7 +32,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Time Management',
       'Cost Monitoring'
     ],
-    image: 'https://img.freepik.com/free-photo/crane-building-construction-site-filtered-image-processed_1232-2707.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: 'https://img.freepik.com/free-photo/crop-architect-opening-blueprint_23-2147710985.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
   },
   {
     title: 'Consultancy',
@@ -64,7 +64,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Cash Flow Analysis',
       'Budget Revisions'
     ],
-    image: 'https://img.freepik.com/free-vector/tax-elements-composition-isometric_98292-6836.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: 'https://img.freepik.com/free-vector/business-man-business-woman-with-computer-diagram-information_24640-45222.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
   },
   {
     title: 'Building Approvals',
