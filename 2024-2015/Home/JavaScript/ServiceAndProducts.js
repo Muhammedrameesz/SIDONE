@@ -10,12 +10,13 @@ function showDetailsAndSetActive(type, cardElement) {
     showDetails(type);
   }
   
-  // Function to display details for a specific card
+  
   function showDetails(type) {
     const detailsSection = document.getElementById('details');
     const detailsImage = document.getElementById('details-image');
     const detailsTitle = document.getElementById('details-title');
     const detailsDescription = document.getElementById('details-description');
+
   
    const subPoints = [
   {
@@ -32,7 +33,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Time Management',
       'Cost Monitoring'
     ],
-    image: 'https://img.freepik.com/free-photo/crop-architect-opening-blueprint_23-2147710985.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/7- Angel Complex.jpg'
   },
   {
     title: 'Consultancy',
@@ -48,7 +49,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Sustainability Consultation',
       'Client Coordination'
     ],
-    image: 'https://img.freepik.com/free-photo/man-with-tablet-chatting-with-colleagues_23-2147787532.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/8- CENTIZEN IT BUILDING.jpg'
   },
   {
     title: 'Estimation and Budgeting',
@@ -64,7 +65,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Cash Flow Analysis',
       'Budget Revisions'
     ],
-    image: 'https://img.freepik.com/free-vector/business-man-business-woman-with-computer-diagram-information_24640-45222.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/13- ARR MARRIGE HALL.jpg'
   },
   {
     title: 'Building Approvals',
@@ -80,7 +81,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Documentation Support',
       'Approval Follow-ups'
     ],
-    image: 'https://img.freepik.com/free-vector/architectural-project-approval-safety-check-construction-quality-control-construction-quality-management-hire-your-quality-technician-concept_335657-701.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/70- PEB SEYED COTTON MILL.jpg'
   },
   {
     title: 'Project Management Consultancy',
@@ -96,7 +97,7 @@ function showDetailsAndSetActive(type, cardElement) {
       'Performance Evaluation',
       'Project Handover'
     ],
-    image: 'https://img.freepik.com/free-photo/business-scene-top-view_23-2147626514.jpg?uid=R121738979&ga=GA1.1.906489000.1700029812&semt=ais_hybrid'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/31.07.24-AATHIRA HOSPITAL ELEVATION DESIGN 1-8-24.jpg'
   }
 ];
 
