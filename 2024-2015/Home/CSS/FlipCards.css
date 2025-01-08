@@ -1,6 +1,7 @@
 .flip-card-container-work-section {
     background-color: rgb(241, 237, 213);
     padding: 20px;
+    padding-top: 40px;
 }
 
 .flip-card-container-work {
@@ -32,38 +33,65 @@
     }
 }
 
-.Title-card-first-section .card-title-main {
+/* Title Card Section */
+.itle-card-first-section {
     display: flex;
     flex-direction: column;
-    gap: 0; 
-    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Ensure the section takes the full screen height */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
+/* Main Title Styling */
+.Title-card-first-section .card-title-main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: black;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    margin-bottom: 20px;
+}
+
+/* Initial Title */
 .Title-card-first-section .card-title-main .initilal {
     font-size: 40px;
     font-weight: 500;
-    line-height: 1; 
-    margin-bottom: 8px; 
+    line-height: 1;
+  
 }
 
+/* Final Title */
 .Title-card-first-section .card-title-main .final {
     font-size: 40px;
     color: #E85C0D;
     font-weight: 500;
-    line-height: 1; 
-    margin-top: 8px; 
+    line-height: 1;
 }
 
+/* Card Description */
 .Title-card-first-section .card-description-main {
     font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    max-width: 600px; /* Optional: limits the width of the description */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+    text-align: center;
 }
 
+/* Underline Below Title */
 .Title-card-first-section .title-underline {
-    width: 50px;
+    width: 100px;
     height: 2px;
     background-color: #E85C0D;
-    margin: 25px 0px 35px 0px;
+    margin-left: 50%;
 }
+
 
 .flip-card {
     background-color: transparent;
@@ -108,7 +136,8 @@
 .flip-card-front .header-absolute {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%; /* Move it to the center */
+    transform: translateX(-50%); /* Adjust to truly center the element */
     width: 100%;
     height: 100%;
     background: rgba(7, 7, 7, 0.7); /* Full blackish background with transparency */
@@ -119,7 +148,11 @@
     justify-content: center;
     gap: 10px;
     border-radius: 0; /* Remove border-radius if you want sharp edges */
+    padding: 0 20px; /* Add left and right margin space */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center;
 }
+
 
 .header-absolute i {
     font-size: 50px;
@@ -140,6 +173,8 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /* Additional adjustments for card content on smaller screens */

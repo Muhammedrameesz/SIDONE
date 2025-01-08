@@ -5,6 +5,7 @@
   padding: 0;
   padding-top: 20px;
   background-color: #fff;
+  
 }
 
 .why-choose-us .container {
@@ -101,6 +102,7 @@
 .right-column {
   width: 40%;
   padding: 10px 20px;
+ 
 }
 
 .right-column .content {
@@ -126,7 +128,7 @@
 }
 
 .why-choose-us button {
-  margin-top: 20px;
+  margin-top: 50px !important;
   border: 2px solid #ff6600;
   color: black; /* Text color */
   border-radius: 8px; /* Rounded corners */
