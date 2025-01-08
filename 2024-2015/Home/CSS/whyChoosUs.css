@@ -85,8 +85,8 @@
 .image-container img {
   width: 100%;
   max-width: 600px;
-  height: auto;
-  max-height: 400px;
+  height: 400px !important;
+  /* max-height: 400px; */
   border-radius: 10px;
 }
 
@@ -190,6 +190,13 @@
     justify-content: center;
     flex-direction: column;
   }
+  .image-container img {
+  width: 100%;
+  max-width: 600px;
+  height: 200px !important;
+  /* max-height: 400px; */
+  border-radius: 10px;
+}
 }
 
 @media (max-width: 480px) {
@@ -211,6 +218,13 @@
     justify-content: center;
     flex-direction: column;
   }
+  .image-container img {
+  width: 100%;
+  max-width: 600px;
+  height: 150px !important;
+  /* max-height: 400px; */
+  border-radius: 10px;
+}
 
   .why-choose-us button {
     width: 100%;

@@ -185,13 +185,14 @@
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #fff;
+    color: #000000;
+
 }
 
 .cards-container-2nd .card-description {
     font-size: 1rem;
-    color: #fff;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 500;
 }
 
 .cards-container-2nd .card:hover {
