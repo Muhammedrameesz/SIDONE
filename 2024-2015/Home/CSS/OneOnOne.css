@@ -43,14 +43,16 @@
     font-size: 30px;
     margin-right: 10px;
 }
+.carousel-wrapper{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 50px 20px;
+}
 
 .one-on-one-card {
     min-width: 100%;
     display: flex;
     gap: 100px;
-    background-color: rgb(32, 32, 32);
-    color: white;
-    padding: 50px 20px;
     border-radius: 10px;
 }
 
@@ -64,13 +66,33 @@
     align-items: center;
 }
 
+/* General styling for the .card-contact container */
 .card-contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
-    color: #e9f5f5;
+    gap: 30px;
+    color: #c0c0c0; /* Default text color */
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
 }
+
+/* Styling for icons inside .card-contact */
+.card-contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    /* color: #d8d8d8; Uncomment and adjust if needed */
+}
+
+
+#one-on-one-meetings-section.carousel-wrapper.card-contact.contact-item  a {
+    text-decoration: none; /* Removes underline */
+    color: #c0c0c0; /* Sets default color explicitly */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
 
 .contact-item {
     display: flex;
@@ -80,9 +102,16 @@
     transition: all 0.3s ease-in-out;
 }
 
+
 .contact-item:hover {
-    color: #E85C0D;
+    color: #E85C0D; 
 }
+
+.contact-item:hover a {
+    color: #E85C0D !important; 
+}
+
+
 
 .dots-wrapper {
     display: flex;
@@ -142,6 +171,16 @@
 
     #one-on-one-meetings-description {
         font-size: 14px; /* Reduce font size */
+    }
+    .card-contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: #e9f5f5;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0%;
     }
 }
 

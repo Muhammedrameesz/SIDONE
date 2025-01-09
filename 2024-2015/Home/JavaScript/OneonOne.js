@@ -2,6 +2,8 @@ const carousel = document.getElementById("one-on-one-carousel");
 const prevArrow = document.getElementById("prevArrow");
 const nextArrow = document.getElementById("nextArrow");
 const cards = document.querySelectorAll(".one-on-one-card");
+const sendMail = document.getElementById("sendMail")
+
 let currentIndex = 0;
 
 // Function to update carousel position
@@ -20,6 +22,11 @@ nextArrow.addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % cards.length; // Increment with wrap-around
   updateCarousel();
 });
+
+sendMail.addEventListener("click", ()=>{
+  const email = "jude@adurabusinesscorp.com";
+    window.location.href = `mailto:${email}`;
+})
 
 // Auto-scroll functionality (optional)
 setInterval(() => {
