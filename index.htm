@@ -2754,14 +2754,30 @@ take center stage.
             
           </div>
           <div class="card-contact">
-            <div  class="contact-item" id="sendMail"> <i class="fas fa-envelope"></i> jude@adurabusinesscorp.com</div>
-            <div class="contact-item"><i class="fas fa-phone"></i> 6381708036</div>
-            <div class="contact-item"><i class="fab fa-whatsapp"></i> 9843280842</div>
+            <div class="contact-item" id="sendMail">
+              <i class="fas fa-envelope"></i> jude@adurabusinesscorp.com
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i> 6381708036
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-whatsapp"></i> 9843280842
+            </div>
           </div>
-          <!-- Dots for pagination -->
-          <div id="carousel-pagination" class="dots-wrapper"></div>
-        </div>
 
+
+
+          <script>
+            // Get the div element
+            const sendMailDiv = document.getElementById("sendMail");
+        
+            // Add click event listener
+            sendMailDiv.addEventListener("click", () => {
+              const email = "jude@adurabusinesscorp.com";
+              window.location.href = `mailto:${email}`;
+              console.log('Email client opened');
+            });
+          </script>
        
       </section>
       
