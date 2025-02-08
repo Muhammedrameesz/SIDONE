@@ -41,7 +41,7 @@ function showDetailsAndSetActive(type, cardElement) {
     image: '../../../wp-content/uploads/2024/Commercial Projects/7- Angel Complex.jpg'
   },
   {
-    title: 'Consultancy',
+    title: 'Design',
     description: 'Welcome to Sidone, your trusted partner in building consultancy for architectural and structural design. At Sidone, we are committed to transforming your ideas into remarkable realities.',
     points: [
       'Feasibility Studies',
@@ -134,13 +134,14 @@ function showDetailsAndSetActive(type, cardElement) {
         des: "Our team creates a detailed schedule for all approval-related tasks, coordinating with regulatory bodies and stakeholders to meet deadlines without delays.",
       },
       {
-        title: "Controlling",
-        des: "Sidone Infrastructure maintains strict control over the approval process, addressing potential roadblocks, monitoring progress, and ensuring compliance at every stage.",
-      },
-      {
         title: "Tracking",
         des: "We provide real-time updates on the status of approvals, keeping you informed at every step. Our tracking systems ensure transparency and accountability throughout the process",
       },
+      {
+        title: "Controlling",
+        des: "Sidone Infrastructure maintains strict control over the approval process, addressing potential roadblocks, monitoring progress, and ensuring compliance at every stage.",
+      },
+      
     ],
     image: '../../../wp-content/uploads/2024/Commercial Projects/31.07.24-AATHIRA HOSPITAL ELEVATION DESIGN 1-8-24.jpg'
   }
