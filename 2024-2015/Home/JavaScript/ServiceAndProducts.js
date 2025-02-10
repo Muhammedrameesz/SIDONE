@@ -42,7 +42,7 @@ function showDetailsAndSetActive(type, cardElement) {
   },
   {
     title: 'Design',
-    description: 'Welcome to Sidone, your trusted partner in building consultancy for architectural and structural design. At Sidone, we are committed to transforming your ideas into remarkable realities.',
+    description: 'Welcome to Sidone, your trusted partner for architectural and structural design. At Sidone, we are committed to transforming your ideas into remarkable realities.',
     points: [
       'Feasibility Studies',
       'Design Consultation',
@@ -90,7 +90,7 @@ function showDetailsAndSetActive(type, cardElement) {
   },
   {
     title: 'Building Approvals',
-    description: 'As a leading name in the industry, we leverage our expertise and connections to streamline the approval process, saving you time and effort while ensuring full compliance with all regulatory standards.',
+    description: 'As a leading name in the industry, we leverage our expertise and connections to streamline the approval process, save your time and effort while ensuring full compliance with all regulatory standards.',
     points: [
       'Zoning Clearance',
       'Architectural Approvals',
