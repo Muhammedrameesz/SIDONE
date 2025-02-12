@@ -25,9 +25,10 @@
   position: relative; /* Make the first image relative */
   background-image: url('image1.jpg');
   background-size: cover;
-  width: 100%; /* Full width */
-  height: auto; /* Full height */
+  width:100%; /* Full width */
+  height: 100%; /* Full height */
   border-radius: 10px; /* Add border-radius to the first image */
+  margin-top: 5rem;
 }
 
 .image-m-2 {
@@ -70,7 +71,7 @@
   right: 50px;
   background-image: url('image5.jpg');
   background-size: cover;
-  width: 70%;
+  width: 60%;
   height: auto;
   animation: moveImages3 6s infinite ease-in-out;
 }
@@ -268,6 +269,9 @@
   }
   .learn-more {
       width: 100%;
+  }
+  .image-m-1 {
+    margin-top: 1rem;
   }
   
 }

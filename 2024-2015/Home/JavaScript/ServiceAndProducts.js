@@ -38,7 +38,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des:"Sidone Infrastructure offers top-notch commercial construction services that meet the dynamic demands of modern businesses. Whether it’s sleek office spaces or bustling retail complexes, we deliver high-quality solutions tailored to your operational needs."
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/7- Angel Complex.jpg'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/9- Smart city.jpeg'
   },
   {
     title: 'Design',
@@ -86,7 +86,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des: "We identify potential risks and provide strategies to mitigate unexpected costs, helping you stay on track.",
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/13- ARR MARRIGE HALL.jpg'
+    image: '../../../wp-content/uploads/2024/Commercial Projects/41- Community Kitchen Detail Drawings & Views- TEAMDC - 1.png'
   },
   {
     title: 'Building Approvals',
