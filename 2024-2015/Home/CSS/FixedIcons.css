@@ -1,0 +1,52 @@
+/* Styling for the fixed social icons */
+.social-icons {
+    position: fixed;
+    top: 50%; /* Center vertically */
+    right: 20px; /* Position on the left */
+    transform: translateY(-50%); /* Center the icons */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between icons */
+    z-index: 1000; /* Ensure it's always visible */
+    background-color: rgba(225, 220, 230, 0.05);
+  }
+  
+  .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid transparent; /* Initially transparent */
+    border-radius: 50%; /* Makes it circular */
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth hover transition */
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .icon-box:hover {
+    border-color: #ff6600; /* Orange border on hover */
+    background-color: rgba(255, 102, 0, 0.1); /* Slight background highlight */
+    transform: scale(1.1); /* Slight scaling on hover */
+  }
+  
+  /* Icons styling */
+  .email-icon {
+    color: #d44638; /* Red for email */
+  }
+  
+  .whatsapp-icon {
+    color: #25D366; /* Green for WhatsApp */
+  }
+  
+  .twitter-icon {
+    color: #1DA1F2; /* Blue for Twitter */
+  }
+  
+  .icon-box i {
+    font-size: 24px; /* Icon size */
+  }
+  

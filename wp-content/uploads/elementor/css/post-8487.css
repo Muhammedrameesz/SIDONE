@@ -1,0 +1,330 @@
+.elementor-8487
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container {
+  min-height: 400px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-8487
+  .elementor-element.elementor-element-aaa132d:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8487
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #01111b;
+  background-image: url("../../../../2024-2015/Home/images/Apartments/6-Adura-Regent.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-8487
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-background-overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8487 .elementor-element.elementor-element-aaa132d {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-277943b
+  > .elementor-element-populated {
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-08bc75d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-8487 .elementor-element.elementor-element-08bc75d {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.elementor-bc-flex-widget
+  .elementor-8487
+  .elementor-element.elementor-element-6803769.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8487
+  .elementor-element.elementor-element-6803769.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-8487 .elementor-element.elementor-element-48dc9b7 {
+  text-align: center;
+}
+.elementor-8487
+  .elementor-element.elementor-element-48dc9b7
+  .elementor-heading-title {
+  color: #ffffff;
+  font-family: var(--e-global-typography-7905881-font-family), Sans-serif;
+  font-size: var(--e-global-typography-7905881-font-size);
+  font-weight: var(--e-global-typography-7905881-font-weight);
+  line-height: var(--e-global-typography-7905881-line-height);
+  letter-spacing: var(--e-global-typography-7905881-letter-spacing);
+  word-spacing: var(--e-global-typography-7905881-word-spacing);
+}
+.elementor-8487 .elementor-element.elementor-element-d18c3eb {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-e6e8742
+  > .elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.elementor-8487
+  .elementor-element.elementor-element-e6e8742
+  > .elementor-element-populated
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8487
+  .elementor-element.elementor-element-9858d37:not(
+    .elementor-motion-effects-element-type-background
+  )
+  > .elementor-widget-wrap,
+.elementor-8487
+  .elementor-element.elementor-element-9858d37
+  > .elementor-widget-wrap
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #fff;
+}
+.elementor-8487
+  .elementor-element.elementor-element-9858d37
+  > .elementor-element-populated {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 50px 50px 50px 50px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-9858d37
+  > .elementor-element-populated
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-accordion-item
+  + .bdt-ep-accordion-item {
+  margin-top: 2px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-title-text {
+  justify-content: flex-start;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-accordion-title {
+  color: #000;
+  background-color:  #F28C28;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-accordion-custom-icon
+  svg {
+  fill: #ffffff;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-accordion-icon {
+  border-radius: 0px 0px 0px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-1bf7594
+  .bdt-ep-accordion-content {
+  color: #000;
+  padding: 20px 20px 20px 20px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-36893fe:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8487
+  .elementor-element.elementor-element-36893fe
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #fff;
+}
+.elementor-8487 .elementor-element.elementor-element-36893fe {
+  --background-transition: 0.3s;
+  --padding-top: 50px;
+  --padding-right: 50px;
+  --padding-bottom: 50px;
+  --padding-left: 50px;
+}
+.elementor-8487 .elementor-element.elementor-element-36893fe,
+.elementor-8487 .elementor-element.elementor-element-36893fe::before {
+  --border-transition: 0.3s;
+}
+.elementor-8487 .elementor-element.elementor-element-2ea2771 {
+  --image-transition-duration: 800ms;
+  --overlay-transition-duration: 800ms;
+  --content-text-align: center;
+  --content-padding: 20px;
+  --content-transition-duration: 800ms;
+  --content-transition-delay: 800ms;
+}
+.elementor-8487
+  .elementor-element.elementor-element-2ea2771
+  .e-gallery-item:hover
+  .elementor-gallery-item__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.elementor-8487
+  .elementor-element.elementor-element-c8ca83c:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8487
+  .elementor-element.elementor-element-c8ca83c
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../../../../2024-2015/Home/images/Apartments/4-Adura-vivid.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-8487
+  .elementor-element.elementor-element-c8ca83c
+  > .elementor-background-overlay {
+  background-color: #082e5c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8487 .elementor-element.elementor-element-c8ca83c {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-9056783:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8487
+  .elementor-element.elementor-element-9056783
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #eeeff100;
+}
+.elementor-8487
+  .elementor-element.elementor-element-9056783
+  > .elementor-background-overlay {
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8487 .elementor-element.elementor-element-9056783 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 50px 0px 50px 0px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-e0150cb.elementor-column
+  > .elementor-widget-wrap {
+  justify-content: center;
+}
+.elementor-8487 .elementor-element.elementor-element-645d194 .elementor-button {
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #61ce7000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 100px 100px 100px 100px;
+}
+.elementor-8487
+  .elementor-element.elementor-element-645d194
+  .elementor-button:hover,
+.elementor-8487
+  .elementor-element.elementor-element-645d194
+  .elementor-button:focus {
+  color: #000;
+  background-color: #E85C0D;
+  border-color: #E85C0D;
+}
+.elementor-8487
+  .elementor-element.elementor-element-645d194
+  .elementor-button:hover
+  svg,
+.elementor-8487
+  .elementor-element.elementor-element-645d194
+  .elementor-button:focus
+  svg {
+  fill: #ffffff;
+}
+:root {
+  --page-title-display: none;
+}
+@media (min-width: 1025px) {
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 1024px) {
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+  .elementor-8487
+    .elementor-element.elementor-element-48dc9b7
+    .elementor-heading-title {
+    font-size: var(--e-global-typography-7905881-font-size);
+    line-height: var(--e-global-typography-7905881-line-height);
+    letter-spacing: var(--e-global-typography-7905881-letter-spacing);
+    word-spacing: var(--e-global-typography-7905881-word-spacing);
+  }
+}
+@media (max-width: 767px) {
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8487
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+  .elementor-8487 .elementor-element.elementor-element-aaa132d {
+    padding: 40px 10px 40px 10px;
+  }
+  .elementor-8487
+    .elementor-element.elementor-element-48dc9b7
+    .elementor-heading-title {
+    font-size: var(--e-global-typography-7905881-font-size);
+    line-height: var(--e-global-typography-7905881-line-height);
+    letter-spacing: var(--e-global-typography-7905881-letter-spacing);
+    word-spacing: var(--e-global-typography-7905881-word-spacing);
+  }
+}

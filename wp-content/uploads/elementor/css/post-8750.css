@@ -1,0 +1,353 @@
+.elementor-8750
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container {
+  min-height: 400px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-8750
+  .elementor-element.elementor-element-aaa132d:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8750
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #315178;
+  background-image: url("../../../../2024-2015/Home/images/Apartments/4-Adura-vivid.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-8750
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-background-overlay {
+  background-color: #00000000;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8750 .elementor-element.elementor-element-aaa132d {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-08bc75d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-8750 .elementor-element.elementor-element-08bc75d {
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+.elementor-bc-flex-widget
+  .elementor-8750
+  .elementor-element.elementor-element-6803769.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8750
+  .elementor-element.elementor-element-6803769.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-8750 .elementor-element.elementor-element-6166a79 {
+  overflow: hidden;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 60px 0px 60px 0px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-6166a79:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8750
+  .elementor-element.elementor-element-6166a79
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #f5f5f5;
+}
+.elementor-8750
+  .elementor-element.elementor-element-6166a79
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-bc-flex-widget
+  .elementor-8750
+  .elementor-element.elementor-element-8da7ca3.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8750
+  .elementor-element.elementor-element-8da7ca3.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-8750
+  .elementor-element.elementor-element-0d83d85
+  .elementor-heading-title {
+  color: #000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+}
+.elementor-8750
+  .elementor-element.elementor-element-0d83d85
+  > .elementor-widget-container {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8750 .elementor-element.elementor-element-aea04dc {
+  text-align: justify;
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.elementor-8750
+  .elementor-element.elementor-element-aea04dc
+  > .elementor-widget-container {
+  padding: 0px 50px 0px 0px;
+}
+.elementor-bc-flex-widget
+  .elementor-8750
+  .elementor-element.elementor-element-d0c6691.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-8750
+  .elementor-element.elementor-element-d0c6691.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-8750
+  .elementor-element.elementor-element-d0c6691.elementor-column
+  > .elementor-widget-wrap {
+  justify-content: center;
+}
+.elementor-8750 .elementor-element.elementor-element-0169f90 img {
+  width: 100%;
+}
+.elementor-8750 .elementor-element.elementor-element-b4c4e96 {
+  --background-transition: 0.3s;
+  --padding-top: 50px;
+  --padding-right: 50px;
+  --padding-bottom: 50px;
+  --padding-left: 50px;
+}
+.elementor-8750 .elementor-element.elementor-element-5eec0c9 {
+  --image-transition-duration: 800ms;
+  --overlay-transition-duration: 800ms;
+  --content-text-align: center;
+  --content-padding: 20px;
+  --content-transition-duration: 800ms;
+  --content-transition-delay: 800ms;
+}
+.elementor-8750
+  .elementor-element.elementor-element-5eec0c9
+  .e-gallery-item:hover
+  .elementor-gallery-item__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.elementor-8750
+  .elementor-element.elementor-element-aa109ff:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8750
+  .elementor-element.elementor-element-aa109ff
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #E85C0D;
+}
+.elementor-8750 .elementor-element.elementor-element-aa109ff {
+  --background-transition: 0.3s;
+  --padding-top: 50px;
+  --padding-right: 50px;
+  --padding-bottom: 50px;
+  --padding-left: 50px;
+}
+.elementor-8750 .elementor-element.elementor-element-aa109ff,
+.elementor-8750 .elementor-element.elementor-element-aa109ff::before {
+  --border-transition: 0.3s;
+}
+.elementor-8750 .elementor-element.elementor-element-fce0f45 {
+  --image-transition-duration: 800ms;
+  --overlay-transition-duration: 800ms;
+  --content-text-align: center;
+  --content-padding: 20px;
+  --content-transition-duration: 800ms;
+  --content-transition-delay: 800ms;
+}
+.elementor-8750
+  .elementor-element.elementor-element-fce0f45
+  .e-gallery-item:hover
+  .elementor-gallery-item__overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.elementor-8750
+  .elementor-element.elementor-element-4a6fb69:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8750
+  .elementor-element.elementor-element-4a6fb69
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../../../../2024-2015/Home/images/Apartments/3-AduraAurora.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-8750
+  .elementor-element.elementor-element-4a6fb69
+  > .elementor-background-overlay {
+  background-color: #082e5c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8750 .elementor-element.elementor-element-4a6fb69 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-b2209b7:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-8750
+  .elementor-element.elementor-element-b2209b7
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #eeeff100;
+}
+.elementor-8750
+  .elementor-element.elementor-element-b2209b7
+  > .elementor-background-overlay {
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-8750 .elementor-element.elementor-element-b2209b7 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 50px 0px 50px 0px;
+}
+.elementor-8750 .elementor-element.elementor-element-0b816b6 .elementor-button {
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #61ce7000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 100px 100px 100px 100px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-0b816b6
+  .elementor-button:hover,
+.elementor-8750
+  .elementor-element.elementor-element-0b816b6
+  .elementor-button:focus {
+  color: #000;
+  background-color: #E85C0D;
+  border-color: #E85C0D;
+}
+.elementor-8750
+  .elementor-element.elementor-element-0b816b6
+  .elementor-button:hover
+  svg,
+.elementor-8750
+  .elementor-element.elementor-element-0b816b6
+  .elementor-button:focus
+  svg {
+  fill: #ffffff;
+}
+.elementor-8750 .elementor-element.elementor-element-e512e19 .elementor-button {
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #61ce7000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 100px 100px 100px 100px;
+}
+.elementor-8750
+  .elementor-element.elementor-element-e512e19
+  .elementor-button:hover,
+.elementor-8750
+  .elementor-element.elementor-element-e512e19
+  .elementor-button:focus {
+  color: #000;
+  background-color: #E85C0D;
+  border-color: #E85C0D;
+}
+.elementor-8750
+  .elementor-element.elementor-element-e512e19
+  .elementor-button:hover
+  svg,
+.elementor-8750
+  .elementor-element.elementor-element-e512e19
+  .elementor-button:focus
+  svg {
+  fill: #ffffff;
+}
+@media (min-width: 768px) {
+  .elementor-8750 .elementor-element.elementor-element-8da7ca3 {
+    width: 59.736%;
+  }
+  .elementor-8750 .elementor-element.elementor-element-d0c6691 {
+    width: 40.134%;
+  }
+}
+@media (max-width: 1024px) {
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+  .elementor-8750 .elementor-element.elementor-element-aaa132d {
+    padding: 40px 10px 40px 10px;
+  }
+  .elementor-8750 .elementor-element.elementor-element-6166a79 {
+    padding: 40px 10px 40px 10px;
+  }
+  .elementor-8750
+    .elementor-element.elementor-element-aea04dc
+    > .elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+  }
+}
+@media (min-width: 1025px) {
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-8750
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: scroll;
+  }
+}

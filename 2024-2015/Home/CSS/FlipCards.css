@@ -1,0 +1,199 @@
+.flip-card-container-work-section {
+    background-color: rgb(241, 237, 213);
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.flip-card-container-work {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    margin: 40px 70px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .flip-card-container-work {
+        grid-template-columns: repeat(3, 1fr);
+        margin: 40px 30px; /* Adjust margins for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .flip-card-container-work {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 40px 20px; /* Further adjust margins */
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card-container-work {
+        grid-template-columns: 1fr;
+        margin: 20px; /* Reduce margins on very small screens */
+    }
+}
+
+/* Title Card Section */
+.itle-card-first-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Ensure the section takes the full screen height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Main Title Styling */
+.Title-card-first-section .card-title-main {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: black;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    margin-bottom: 20px;
+}
+
+/* Initial Title */
+.Title-card-first-section .card-title-main .initilal {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+  
+}
+
+/* Final Title */
+.Title-card-first-section .card-title-main .final {
+    font-size: 40px;
+    color: #E85C0D;
+    font-weight: 500;
+    line-height: 1;
+}
+
+/* Card Description */
+.Title-card-first-section .card-description-main {
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    max-width: 600px; /* Optional: limits the width of the description */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+    text-align: center;
+}
+
+/* Underline Below Title */
+.Title-card-first-section .title-underline {
+    width: 100px;
+    height: 2px;
+    background-color: #E85C0D;
+    margin-left: 50%;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 100%; /* Make the card responsive */
+    height: 300px;
+    perspective: 1000px; /* Enables the 3D flipping effect */
+    margin: 0 auto;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s ease-in-out; /* Smooth transition for the flip */
+    transform-style: preserve-3d; /* Ensures both front and back can exist in 3D space */
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Flips the card */
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Hides the back side when not visible */
+    -webkit-backface-visibility: hidden; /* For Safari support */
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    overflow: hidden;
+}
+
+.flip-card-front img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.flip-card-front .header-absolute {
+    position: absolute;
+    top: 0;
+    left: 50%; /* Move it to the center */
+    transform: translateX(-50%); /* Adjust to truly center the element */
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 7, 7, 0.7); /* Full blackish background with transparency */
+    color: white;
+    display: flex; /* Centering content inside */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0; /* Remove border-radius if you want sharp edges */
+    padding: 0 20px; /* Add left and right margin space */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    text-align: center;
+}
+
+
+.header-absolute i {
+    font-size: 50px;
+}
+
+.header-absolute .header-title {
+    font-size: 24px;
+}
+
+.flip-card-back {
+    background-color: #E85C0D;
+    color: white;
+    transform: rotateY(180deg); /* Positioned to show when flipped */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Additional adjustments for card content on smaller screens */
+@media (max-width: 768px) {
+    .flip-card {
+        height: 250px; /* Adjust card height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card {
+        height: 200px; /* Further adjust card height for very small screens */
+    }
+
+    .header-absolute i {
+        font-size: 40px; /* Adjust icon size */
+    }
+
+    .header-absolute .header-title {
+        font-size: 20px; /* Adjust title size */
+    }
+}

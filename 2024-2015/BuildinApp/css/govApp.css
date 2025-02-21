@@ -1,0 +1,60 @@
+
+.approval-steps {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 1300px;
+  align-items: center;
+  justify-content: center;
+}
+.approval-steps h2 {
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-family: poppins,sans-serif;
+}
+.steps-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+.step {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.step h3 {
+  color: #e85c0d;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#gov-p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #e85c0d;
+}
+.step p {
+  color: #333;
+  font-size: 16px;
+}
+.step i {
+  font-size: 30px;
+  color: #050724;
+  margin-bottom: 10px;
+  display: block;
+}
+@media (max-width: 768px) {
+  .steps-container {
+      grid-template-columns: 1fr;
+  }
+}

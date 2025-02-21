@@ -1,0 +1,857 @@
+.elementor-7406
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container {
+  min-height: 400px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-7406
+  .elementor-element.elementor-element-aaa132d:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-7406
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #E85C0D;
+  background-image: url("../../../../2024-2015/Home/images/Apartments/1-ArcadeeElevation.JPG");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-7406
+  .elementor-element.elementor-element-aaa132d
+  > .elementor-background-overlay {
+  background-color: #000000;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-aaa132d {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-08bc75d
+  > .elementor-container
+  > .elementor-column
+  > .elementor-widget-wrap {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+.elementor-7406 .elementor-element.elementor-element-08bc75d {
+  margin-top: 70px;
+  margin-bottom: 0px;
+}
+.elementor-bc-flex-widget
+  .elementor-7406
+  .elementor-element.elementor-element-6803769.elementor-column
+  .elementor-widget-wrap {
+  align-items: center;
+}
+.elementor-7406
+  .elementor-element.elementor-element-6803769.elementor-column.elementor-element[data-element_type="column"]
+  > .elementor-widget-wrap.elementor-element-populated {
+  align-content: center;
+  align-items: center;
+}
+.elementor-7406
+  .elementor-element.elementor-element-ae6e012
+  .elementor-heading-title {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 57px;
+  font-weight: 600;
+}
+.elementor-7406 .elementor-element.elementor-element-9939a74 {
+  overflow: hidden;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 30px 0px 30px 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-9939a74:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-7406
+  .elementor-element.elementor-element-9939a74
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-9939a74
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-f3e759a {
+  --background-transition: 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-bf34b14 .ue_post_blocks {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_box {
+  text-align: left;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #dfdfdf;
+  background-color: #E85C0D;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_content {
+  padding: 20px 20px 20px 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_image
+  img {
+  height: 198px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue-grid-item-category
+  a {
+  background-color: #3fa1c4;
+  color: #ffffff;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_title
+  a {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_title
+  a:hover {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_title {
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: lowercase;
+  font-style: normal;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue-grid-item-meta-data {
+  color: #707070;
+  margin-top: 10px;
+  gap: 10px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue-grid-item-meta-data
+  svg {
+  fill: #707070;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_text {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_link
+  a {
+  padding: 10px 20px 10px 20px;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  .ue_post_blocks_link
+  a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bf34b14
+  > .elementor-widget-container {
+  padding: 40px 0px 0px 0px;
+}
+.elementor-7406 .elementor-element.elementor-element-d865d67 {
+  --background-transition: 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-066ba93 .ue_post_blocks {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_box {
+  text-align: left;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #dfdfdf;
+  background-color: #E85C0D;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_content {
+  padding: 20px 20px 20px 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_image
+  img {
+  height: 198px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue-grid-item-category
+  a {
+  background-color: #3fa1c4;
+  color: #ffffff;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_title
+  a {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_title
+  a:hover {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_title {
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue-grid-item-meta-data {
+  color: #707070;
+  margin-top: 10px;
+  gap: 10px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue-grid-item-meta-data
+  svg {
+  fill: #707070;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_text {
+  color: #ffffff;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_link
+  a {
+  padding: 10px 20px 10px 20px;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  .ue_post_blocks_link
+  a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-066ba93
+  > .elementor-widget-container {
+  padding: 40px 0px 0px 0px;
+}
+.elementor-7406 .elementor-element.elementor-element-577624f {
+  --background-transition: 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-d7f1a03 .ue_post_blocks {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_box {
+  text-align: left;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  border-color: #dfdfdf;
+  background-color: #E85C0D;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_content {
+  padding: 20px 20px 20px 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_image
+  img {
+  height: 198px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue-grid-item-category
+  a {
+  background-color: #3fa1c4;
+  color: #ffffff;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px 5px 5px 5px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_title
+  a {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_title
+  a:hover {
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_title {
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue-grid-item-meta-data {
+  color: #707070;
+  margin-top: 10px;
+  gap: 10px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue-grid-item-meta-data
+  svg {
+  fill: #707070;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_text {
+  color: #ffffff;
+  margin-top: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_link
+  a {
+  padding: 10px 20px 10px 20px;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  .ue_post_blocks_link
+  a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.elementor-7406
+  .elementor-element.elementor-element-d7f1a03
+  > .elementor-widget-container {
+  padding: 40px 0px 0px 0px;
+}
+:is(
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-heading,
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-content
+  )
+  > .e-n-tab-title:not(.e-active):hover {
+  background: #E85C0D;
+}
+:is(
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-heading,
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-content
+  )
+  > .e-n-tab-title.e-active {
+  background: #E85C0D;
+}
+.elementor-7406 .elementor-element.elementor-element-1526d13 {
+  --n-tabs-title-border-radius: 100px 100px 100px 100px;
+  --n-tabs-title-color: #E85C0D;
+}
+:is(
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-heading,
+    .elementor-7406
+      .elementor-element.elementor-element-1526d13
+      > .elementor-widget-container
+      > .e-n-tabs
+      > .e-n-tabs-content
+  )
+  > :is(.e-n-tab-title > .e-n-tab-title-text, .e-n-tab-title) {
+  font-family: "Roboto", Sans-serif;
+  font-weight: 500;
+}
+.elementor-7406
+  .elementor-element.elementor-element-feec3e6:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-7406
+  .elementor-element.elementor-element-feec3e6
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-color: #f5f5f5;
+}
+.elementor-7406 .elementor-element.elementor-element-feec3e6 {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-feec3e6
+  > .elementor-background-overlay {
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bbf47a9
+  > .elementor-widget-wrap
+  > .elementor-widget:not(.elementor-widget__width-auto):not(
+    .elementor-widget__width-initial
+  ):not(:last-child):not(.elementor-absolute) {
+  margin-bottom: 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-bbf47a9
+  > .elementor-element-populated {
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-6cfdfae:not(
+    .elementor-motion-effects-element-type-background
+  ),
+.elementor-7406
+  .elementor-element.elementor-element-6cfdfae
+  > .elementor-motion-effects-container
+  > .elementor-motion-effects-layer {
+  background-image: url("../../../../2024-2015/Home/images/Apartments/3-AduraAurora.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.elementor-7406
+  .elementor-element.elementor-element-6cfdfae
+  > .elementor-background-overlay {
+  background-color: #082e5c;
+  opacity: 0.5;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-7406 .elementor-element.elementor-element-6cfdfae {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 50px 50px 50px 50px;
+}
+.elementor-7406 .elementor-element.elementor-element-4cff6ed .elementor-button {
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #61ce7000;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-radius: 100px 100px 100px 100px;
+}
+.elementor-7406
+  .elementor-element.elementor-element-4cff6ed
+  .elementor-button:hover,
+.elementor-7406
+  .elementor-element.elementor-element-4cff6ed
+  .elementor-button:focus {
+  color: #000;
+  background-color: #E85C0D;
+  border-color: #E85C0D;
+}
+.elementor-7406
+  .elementor-element.elementor-element-4cff6ed
+  .elementor-button:hover
+  svg,
+.elementor-7406
+  .elementor-element.elementor-element-4cff6ed
+  .elementor-button:focus
+  svg {
+  fill: #ffffff;
+}
+:root {
+  --page-title-display: none;
+}
+@media (min-width: 1025px) {
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-attachment: scroll;
+  }
+}
+@media (max-width: 1024px) {
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+  .elementor-7406 .elementor-element.elementor-element-bf34b14 .ue_post_blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .elementor-7406 .elementor-element.elementor-element-066ba93 .ue_post_blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .elementor-7406 .elementor-element.elementor-element-d7f1a03 .ue_post_blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d:not(
+      .elementor-motion-effects-element-type-background
+    ),
+  .elementor-7406
+    .elementor-element.elementor-element-aaa132d
+    > .elementor-motion-effects-container
+    > .elementor-motion-effects-layer {
+    background-position: 0px 0px;
+  }
+  .elementor-7406 .elementor-element.elementor-element-aaa132d {
+    padding: 40px 10px 40px 10px;
+  }
+  .elementor-7406
+    .elementor-element.elementor-element-ae6e012
+    .elementor-heading-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .elementor-7406 .elementor-element.elementor-element-9939a74 {
+    padding: 40px 10px 40px 10px;
+  }
+  .elementor-7406 .elementor-element.elementor-element-bf34b14 .ue_post_blocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .elementor-7406 .elementor-element.elementor-element-066ba93 .ue_post_blocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .elementor-7406 .elementor-element.elementor-element-d7f1a03 .ue_post_blocks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .elementor-7406 .elementor-element.elementor-element-feec3e6 {
+    padding: 0px 0px 0px 0px;
+  }
+  .elementor-7406
+    .elementor-element.elementor-element-bbf47a9
+    > .elementor-element-populated {
+    padding: 0px 0px 0px 0px;
+  }
+} /* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-bf34b14 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-066ba93 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-d7f1a03 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-bf34b14 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-066ba93 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-d7f1a03 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-bf34b14 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-066ba93 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-d7f1a03 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-bf34b14 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-066ba93 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */
+/* Start custom CSS for ucaddon_post_blocks, class: .elementor-element-d7f1a03 */
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_text {
+  color: #000;
+  margin-top: 10px;
+  text-align: justify;
+  font-size: 15px;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_link
+  a {
+  background-color: #E85C0D;
+}
+.elementor-4364
+  .elementor-element.elementor-element-d55feb2
+  .ue_post_blocks_title
+  a {
+  color: #000;
+} /* End custom CSS */

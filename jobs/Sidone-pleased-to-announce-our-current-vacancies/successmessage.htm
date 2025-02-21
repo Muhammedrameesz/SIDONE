@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Success - Job Application</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .success-container {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        max-width: 500px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+      }
+
+      h2 {
+        color: #333;
+        margin-bottom: 20px;
+        font-size: 24px;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 0.5s forwards;
+      }
+
+      .success-message {
+        background-color: #d4edda;
+        color: #155724;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #c3e6cb;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 1s forwards;
+      }
+
+      .success-message i {
+        font-size: 30px;
+        margin-right: 10px;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 1.2s forwards;
+      }
+
+      .message-details {
+        margin-top: 20px;
+        font-size: 16px;
+        color: #666;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 1.5s forwards;
+      }
+
+      .back-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 12px 25px;
+        background-color: #007b;
+        color: #fff;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out 2s forwards;
+      }
+
+      .back-button:hover {
+        background-color: rgba(0, 0, 51, 0.733);
+      }
+
+      /* Fade-in animation */
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="success-container">
+      <h2>Thank You for Your Application!</h2>
+
+      <!-- Success Message with Tick Symbol -->
+      <div class="success-message">
+        <span style="font-size: 30px; margin-right: 10px; color: #28a745"
+          >✔</span
+        >
+        Your application has been submitted successfully.
+      </div>
+
+      <!-- Additional Details -->
+      <div class="message-details">
+        We will review your application and get back to you soon. Thank you for
+        your interest!
+      </div>
+
+      <!-- Back Button -->
+      <a href="/" class="back-button">Go Back to Home</a>
+    </div>
+  </body>
+</html>

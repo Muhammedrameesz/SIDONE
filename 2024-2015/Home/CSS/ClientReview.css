@@ -1,0 +1,162 @@
+/* General Styles */
+.client-review-section {
+  text-align: center;
+  padding: 40px;
+  background-color: #fff;
+  color: #333;
+}
+
+.client-speak-up {
+  font-size: 18px;
+  color: #ff6600;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.happy-clients-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.explore-video-opinion {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.client-review-content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  border-radius: 20px;
+}
+
+.client-review-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: rgba(207, 207, 207, 0.15);
+  padding: 50px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.client-feedback {
+  flex: 1;
+  background-color: #e6e6e6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 70px;
+}
+
+.feedback-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: start;
+  color: #252525;
+  font-weight: 700;
+}
+
+.client-message {
+  font-size: 18px;
+  color: #646464;
+  margin-bottom: 40px;
+  text-align: start;
+  font-weight: 500;
+}
+
+.client-info {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: rgba(78, 78, 78, 0.15);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.client-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-details p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+.client-name {
+  font-weight: bold;
+}
+
+.client-location {
+  font-style: italic;
+}
+
+.client-video {
+  flex: 2;
+  border-radius: 20px;
+  margin-right: 70px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .client-review-item {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0; /* Remove left margin on small screens */
+  }
+  .client-feedback,
+  .client-video {
+      width: 100%; /* Ensure full width */
+      margin-left: 0; /* Reset margin for full width */
+  }
+  .client-video iframe {
+      height: 300px;
+      margin-right: 0; /* Adjusted margin */
+  }
+}
+.client-feedback {
+  margin-left: 50px;
+}
+
+@media (max-width: 480px) {
+  .happy-clients-title {
+      font-size: 28px;
+  }
+  .explore-video-opinion {
+      font-size: 16px;
+  }
+  .feedback-header {
+      font-size: 20px;
+  }
+  .client-message {
+      font-size: 16px;
+  }
+  .client-speak-up {
+      font-size: 16px;
+  }
+  .client-info {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 15px;
+  }
+  .client-details p {
+      font-size: 12px;
+  }
+  .client-review-item {
+      padding: 20px 5px; /* Adjusted for smaller screens */
+  }
+  .client-feedback {
+    margin-left: 0px;
+    margin-right: 70px
+  }
+}

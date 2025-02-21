@@ -1,0 +1,204 @@
+/* Base styles remain unchanged */
+
+#one-on-one-meetings-section {
+    padding: 40px;
+    background-color: #e9f5f5;
+    color: black;
+}
+
+.one-on-one-meetings-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E85C0D;
+}
+
+#one-on-one-meetings-description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#one-on-one-carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.fa-handshake {
+    font-size: 30px;
+    margin-right: 10px;
+}
+.carousel-wrapper{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 50px 20px;
+}
+
+.one-on-one-card {
+    min-width: 100%;
+    display: flex;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.card-left img {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+/* General styling for the .card-contact container */
+.card-contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #c0c0c0; /* Default text color */
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+/* Styling for icons inside .card-contact */
+.card-contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    /* color: #d8d8d8; Uncomment and adjust if needed */
+}
+
+
+#one-on-one-meetings-section.carousel-wrapper.card-contact.contact-item  a {
+    text-decoration: none; /* Removes underline */
+    color: #c0c0c0; /* Sets default color explicitly */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.contact-item:hover {
+    color: #E85C0D; 
+}
+
+.contact-item:hover a {
+    color: #E85C0D !important; 
+}
+
+
+
+.dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dots-wrapper span {
+    width: 10px;
+    height: 10px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.card-right .card-name {
+    color: #E85C0D;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#card-designation {
+    /* color: rgb(223, 223, 223); */
+    color: #E85C0D;
+    /* color: #c0c0c0; */
+}
+
+#card-right-c {
+    flex: 1;
+}
+#card-right-c p{
+    font-size: 16px;
+
+}
+
+.dots-wrapper span.active {
+    background: #E85C0D;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .one-on-one-card {
+        flex-direction: column; /* Stack the card vertically */
+        gap: 20px; /* Reduce gap between elements */
+        padding: 30px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .card-left img {
+        width: 150px; /* Reduce image size */
+        height: 150px; /* Reduce image size */
+    }
+
+    .card-contact {
+        justify-content: center; /* Center contact items */
+    }
+
+    #one-on-one-meetings-description {
+        font-size: 14px; /* Reduce font size */
+    }
+    .card-contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: #e9f5f5;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 480px) {
+    .one-on-one-card {
+        padding: 20px 10px; /* Further reduce padding */
+    }
+
+    .one-on-one-meetings-header {
+        font-size: 20px; /* Adjust header size */
+    }
+
+    .one-on-one-meetings-description {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .dots-wrapper span {
+        width: 8px; /* Adjust dot size */
+        height: 8px; /* Adjust dot size */
+    }
+}

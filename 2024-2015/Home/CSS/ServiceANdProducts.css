@@ -1,0 +1,340 @@
+/* General Styles */
+.services-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #222222;
+    line-height: 1.5;
+    margin: 30px 50px 60px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+}
+
+.card {
+    width: calc(100% / 5 - 20px); /* Adjusted for better responsiveness */
+    max-width: 250px; /* Prevents cards from being too large */
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 150px;
+    box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+    margin-bottom: 20px; /* Added margin at bottom to avoid overcrowding */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card i {
+    font-size: 40px;
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Details Section */
+.details-section {
+    display: none;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: auto;
+}
+
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures proper wrapping */
+    gap: 40px;
+}
+
+#content-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.content-column h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#image-service {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+#image-service img {
+    width: 100%;
+    height: 100%;
+    min-width: 500px;
+    border-radius: 8px;
+    object-fit: cover;
+    min-height: 500px;
+}
+
+.content-column p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
+/* Add this to highlight the active card */
+.card.active {
+    border: 2px solid #ff6600;
+    background-color: #fff8f0;
+}
+
+/* General Styles */
+.services-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+
+.section-title p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin: 30px 50px 60px 50px;
+}
+
+/* Card Grid Layout */
+.cards-container-2nd {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Space between the cards */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cards-container-2nd .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;  /* Ensure the card takes up full width of the grid column */
+    height: auto;  /* Allow the card height to adjust based on content */
+    min-height: 250px; 
+    min-width: 300px;
+    background-color: #ff6600;
+}
+
+.cards-container-2nd .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+
+}
+
+.cards-container-2nd .card-description {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 500;
+}
+
+.cards-container-2nd .card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+}
+
+/* Responsive Grid Layout */
+@media (max-width: 1024px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .section-title p {
+        margin: 20px;
+    }
+
+    .card {
+        width: calc(50% - 20px); /* Two cards per row */
+    }
+
+    /* Adjusting grid layout for smaller screens */
+    .cards-container-2nd {
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    }
+    #image-service img {
+    width: 100%;
+    height: 100%;
+    min-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+    min-height: 300px;
+}
+.cards-container-2nd .card {
+    min-width: 250px; 
+}
+}
+
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: calc(100% - 20px); /* One card per row */
+    }
+
+    /* For single column layout */
+    .cards-container-2nd {
+        grid-template-columns: 1fr;
+    }
+    #image-service img {
+    width: 100%;
+    height: 100%;
+    min-width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+    min-height: 200px;
+}
+.cards-container-2nd .card {
+    min-width: 200px; 
+}
+}
+
+@media (max-width: 480px) {
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+    #image-service img {
+    width: 100%;
+    height: 100%;
+    min-width: 150px;
+    border-radius: 8px;
+    object-fit: cover;
+    min-height: 150px;
+}
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .section-title p {
+        margin: 20px;
+    }
+
+    .card {
+        width: calc(50% - 20px); /* Two cards per row */
+    }
+
+    .details-container {
+        flex-direction: column;
+    }
+
+    #content-column {
+        padding-left: 0;
+    }
+
+    /* For smaller grid (on medium screens) */
+    .cards-container-2nd {
+        grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .card {
+        width: calc(100% - 20px); /* Single card per row */
+    }
+
+    #image-service img {
+        max-width: 100%;
+    }
+
+    /* For single column layout */
+    .cards-container-2nd {
+        grid-template-columns: 1fr; /* Single card per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}
