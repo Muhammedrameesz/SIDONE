@@ -38,7 +38,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des:"Sidone Infrastructure offers top-notch commercial construction services that meet the dynamic demands of modern businesses. Whether it’s sleek office spaces or bustling retail complexes, we deliver high-quality solutions tailored to your operational needs."
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/7- Angel Complex.jpg'
+    image: '../../../wp-content/uploads/2025/Services/Construction.jpg'
   },
   {
     title: 'Design',
@@ -58,7 +58,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des: "Our structural design consultancy focuses on creating robust, efficient, and safe structures that stand the test of time. Sidone’s experienced structural engineers use advanced techniques and state-of-the-art tools to design systems that are both durable and cost-effective",
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/8- CENTIZEN IT BUILDING.jpg'
+    image: '../../../wp-content/uploads/2025/Services/Design.jpg'
   },
   {
     title: 'Estimation and Budgeting',
@@ -86,7 +86,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des: "We identify potential risks and provide strategies to mitigate unexpected costs, helping you stay on track.",
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/13- ARR MARRIGE HALL.jpg'
+    image: '../../../wp-content/uploads/2025/Services/Estimation and Budgeting.jpg'
   },
   {
     title: 'Building Approvals',
@@ -114,7 +114,7 @@ function showDetailsAndSetActive(type, cardElement) {
         des: "Partnering with registered developers, we offer seamless guidance and approvals for large-scale housing and commercial projects.",
       },
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/70- PEB SEYED COTTON MILL.jpg'
+    image: '../../../wp-content/uploads/2025/Services/Building Approvals.jpg'
   },
   {
     title: 'Project Management Consultancy',
@@ -143,7 +143,7 @@ function showDetailsAndSetActive(type, cardElement) {
       },
       
     ],
-    image: '../../../wp-content/uploads/2024/Commercial Projects/31.07.24-AATHIRA HOSPITAL ELEVATION DESIGN 1-8-24.jpg'
+    image: '../../../wp-content/uploads/2025/Services/Management Consultancy.jpg'
   }
 ];
 
