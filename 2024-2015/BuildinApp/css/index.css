@@ -2,9 +2,9 @@
 .container-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 20px;
+    padding: 40px;
     gap: 20px;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
     align-items: center;
     justify-content: center;
