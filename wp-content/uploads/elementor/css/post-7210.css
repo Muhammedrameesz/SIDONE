@@ -19,11 +19,13 @@
   .elementor-element.elementor-element-aaa132d
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
   background-image: url("../../../../2024-2015/Services/image/Building ApprovalPermission Service.jpg");
+  background-size:cover;
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  /* padding-top: 20%; */
 }
 .elementor-7210
   .elementor-element.elementor-element-aaa132d
@@ -90,7 +92,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-13e47e1
@@ -151,7 +153,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-aae70db
@@ -203,7 +205,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-ae98efa
@@ -277,7 +279,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-d9c0f42
@@ -329,7 +331,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-68f0e11
@@ -436,8 +438,8 @@
   .elementor-element.elementor-element-2520685
   .elementor-button:focus {
   color: #000;
-  background-color: #E85C0D;
-  border-color: #E85C0D;
+  background-color: #e85c0d;
+  border-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-2520685
@@ -464,8 +466,8 @@
   .elementor-element.elementor-element-645d194
   .elementor-button:focus {
   color: #000;
-  background-color: #E85C0D;
-  border-color: #E85C0D;
+  background-color: #e85c0d;
+  border-color: #e85c0d;
 }
 .elementor-7210
   .elementor-element.elementor-element-645d194

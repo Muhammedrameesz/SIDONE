@@ -66,11 +66,11 @@
 
 .image-m-5 {
   position: absolute; /* Position absolutely */
-  top: 50%;
+  top: 30%;
   right: 50px;
   background-image: url('image5.jpg');
   background-size: cover;
-  width: 70%;
+  width: 60%;
   height: auto;
   animation: moveImages3 6s infinite ease-in-out;
 }
