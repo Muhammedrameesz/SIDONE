@@ -20,8 +20,8 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: #e85c0d;
-  background-image: url("../../../../2024-2015/Home/images/Apartments/3-AduraAurora.jpg");
-  background-position: 0px -298px;
+  background-image: url("../../../../2024-2015/headerImages/Construction.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -140,8 +140,8 @@
   .elementor-element.elementor-element-c8ca83c
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../../../2024-2015/Home/images/Apartments/1-ArcadeeElevation.JPG");
-  background-position: 0px -480px;
+  background-image: url("../../../../2024-2015/footerImages/Construction.png");
+  background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
 }

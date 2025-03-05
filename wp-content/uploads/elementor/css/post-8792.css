@@ -20,8 +20,8 @@
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
   background-color: #315178;
-  background-image: url("../../../../2024-2015/Home/images/Apartments/1-ArcadeeElevation.JPG");
-  background-position: 0px 0px;
+  background-image: url("../../../../2024-2015/headerImages/Career.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -245,7 +245,7 @@
   .elementor-element.elementor-element-4a6fb69
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("../../../../2024-2015/Home/images/Apartments/1-ArcadeeElevation.JPG");
+  background-image: url("../../../../2024-2015/footerImages/Career.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
