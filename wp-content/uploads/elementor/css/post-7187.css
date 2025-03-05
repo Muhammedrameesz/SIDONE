@@ -19,7 +19,7 @@
   .elementor-element.elementor-element-aaa132d
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
   background-image: url("../../../../2024-2015/Home/images/Apartments/3-AduraAurora.jpg");
   background-position: 0px -298px;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@
   padding: 5px 5px 5px 5px;
 }
 .elementor-7187 .elementor-element.elementor-element-04f4d80 {
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 0px;
   padding: 0px 0px 0px 0px;
 }
@@ -90,7 +90,7 @@
   > .elementor-widget-wrap
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-color: #E85C0D;
+  background-color: #e85c0d;
 }
 .elementor-7187
   .elementor-element.elementor-element-13e47e1
@@ -100,6 +100,7 @@
   --e-column-margin-right: 0px;
   --e-column-margin-left: 0px;
   padding: 100px 100px 100px 100px;
+  
 }
 .elementor-7187
   .elementor-element.elementor-element-13e47e1
@@ -117,13 +118,19 @@
 .elementor-7187
   .elementor-element.elementor-element-8ee0553
   > .elementor-element-populated {
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  transition: background 0.3s,
+   border 0.3s,
+    border-radius 0.3s, 
+    box-shadow 0.3s;
+    
+    
 }
 .elementor-7187
   .elementor-element.elementor-element-8ee0553
   > .elementor-element-populated
   > .elementor-background-overlay {
   transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  
 }
 .elementor-7187
   .elementor-element.elementor-element-c8ca83c:not(
@@ -184,8 +191,8 @@
   .elementor-element.elementor-element-2520685
   .elementor-button:focus {
   color: #000;
-  background-color: #E85C0D;
-  border-color: #E85C0D;
+  background-color: #e85c0d;
+  border-color: #e85c0d;
 }
 .elementor-7187
   .elementor-element.elementor-element-2520685
@@ -212,8 +219,8 @@
   .elementor-element.elementor-element-645d194
   .elementor-button:focus {
   color: #000;
-  background-color: #E85C0D;
-  border-color: #E85C0D;
+  background-color: #e85c0d;
+  border-color: #e85c0d;
 }
 .elementor-7187
   .elementor-element.elementor-element-645d194
